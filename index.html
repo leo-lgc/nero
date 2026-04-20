@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="pt-BR" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nero - Sinais urgentes de IA</title>
+    <link rel="icon" type="image/png" href="./neroicon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&family=Newsreader:opsz,wght@6..72,400;6..72,500&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="page">
+      <header class="site-header">
+        <div class="brand" aria-label="Nero">
+          <span class="brand-mark" aria-hidden="true">
+            <img src="./neroicon.png" alt="" />
+          </span>
+          <span class="brand-text">
+            <strong>Nero</strong>
+            <small data-i18n="brand_tagline">Radar de sinais urgentes</small>
+          </span>
+        </div>
+
+        <div class="header-actions">
+          <nav class="site-nav" aria-label="Navegação principal">
+            <a href="./index.html" class="active" data-i18n="nav_feed">Feed</a>
+            <a href="./methodology.html" data-i18n="nav_methodology">Metodologia</a>
+          </nav>
+
+          <div class="prefs" aria-label="Preferências">
+            <div class="pref-group" role="group" aria-label="Tema">
+              <button type="button" class="pref-btn" data-theme-value="dark">Dark</button>
+              <button type="button" class="pref-btn" data-theme-value="light">Light</button>
+            </div>
+            <div class="pref-group" role="group" aria-label="Idioma">
+              <button type="button" class="pref-btn" data-lang-value="pt">PT</button>
+              <button type="button" class="pref-btn" data-lang-value="en">EN</button>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <header class="hero">
+        <p class="eyebrow" data-i18n="hero_eyebrow">Radar em tempo real</p>
+        <h1 data-i18n="hero_title">O que está pegando fogo em IA.</h1>
+        <p class="subtitle" data-i18n="hero_subtitle">Reddit e GitHub, sem ruído: sinais com recência, tração e aceleração.</p>
+      </header>
+
+      <section class="toolbar">
+        <div class="filters" role="group" aria-label="Filtros por fonte">
+          <span class="filter-label" data-i18n="filter_source">Fonte</span>
+          <button class="filter-btn active" data-source="all" data-i18n="filter_all">Todos</button>
+          <button class="filter-btn" data-source="reddit">Reddit</button>
+          <button class="filter-btn" data-source="github">GitHub</button>
+        </div>
+
+        <div class="controls" role="group" aria-label="Busca e ordenação">
+          <input id="search-input" class="control-input" type="search" placeholder="Buscar no feed" data-i18n-placeholder="search_placeholder" />
+
+          <select id="topic-filter" class="control-select" aria-label="Filtro por tema">
+            <option value="all" data-i18n="topic_all">Tema: todos</option>
+          </select>
+
+          <select id="sort-mode" class="control-select" aria-label="Ordenação">
+            <option value="urgent" data-i18n="sort_urgent">Mais urgente</option>
+            <option value="recent" data-i18n="sort_recent">Mais recente</option>
+          </select>
+        </div>
+
+      </section>
+
+      <section class="section-block">
+        <p class="section-label" data-i18n="section_hot">Pegando fogo agora</p>
+        <section id="hot-feed" class="feed hot-feed" aria-live="polite"></section>
+      </section>
+
+      <section class="section-block">
+        <div class="section-head">
+          <p class="section-label" data-i18n="section_full">Radar completo</p>
+          <p class="meta" id="meta"></p>
+        </div>
+        <section id="feed" class="feed" aria-live="polite"></section>
+      </section>
+    </main>
+
+    <template id="signal-card-template">
+      <article class="signal-card">
+        <div class="card-topline">
+          <span class="source" aria-hidden="true"></span>
+          <span class="source-name visually-hidden"></span>
+          <span class="time"></span>
+          <span class="band"></span>
+        </div>
+        <h2 class="title">
+          <a class="title-link" target="_blank" rel="noopener noreferrer"></a>
+        </h2>
+        <p class="summary"></p>
+        <div class="card-bottomline">
+          <span class="metrics"></span>
+          <span class="tags"></span>
+        </div>
+        <a class="origin" target="_blank" rel="noopener noreferrer" data-i18n="open_origin">Abrir origem</a>
+      </article>
+    </template>
+
+    <script src="ui-preferences.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>

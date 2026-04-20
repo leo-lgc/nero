@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="pt-BR" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nero - Metodologia</title>
+    <link rel="icon" type="image/png" href="./neroicon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&family=Newsreader:opsz,wght@6..72,400;6..72,500&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="page">
+      <header class="site-header">
+        <div class="brand" aria-label="Nero">
+          <span class="brand-mark" aria-hidden="true">
+            <img src="./neroicon.png" alt="" />
+          </span>
+          <span class="brand-text">
+            <strong>Nero</strong>
+            <small data-i18n="brand_tagline">Radar de sinais urgentes</small>
+          </span>
+        </div>
+
+        <div class="header-actions">
+          <nav class="site-nav" aria-label="Navegação principal">
+            <a href="./index.html" data-i18n="nav_feed">Feed</a>
+            <a href="./methodology.html" class="active" data-i18n="nav_methodology">Metodologia</a>
+          </nav>
+
+          <div class="prefs" aria-label="Preferências">
+            <div class="pref-group" role="group" aria-label="Tema">
+              <button type="button" class="pref-btn" data-theme-value="dark">Dark</button>
+              <button type="button" class="pref-btn" data-theme-value="light">Light</button>
+            </div>
+            <div class="pref-group" role="group" aria-label="Idioma">
+              <button type="button" class="pref-btn" data-lang-value="pt">PT</button>
+              <button type="button" class="pref-btn" data-lang-value="en">EN</button>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <header class="hero method-hero">
+        <p class="eyebrow" data-i18n="hero_eyebrow">Transparência</p>
+        <h1 data-i18n="hero_title">Como o Nero decide o que importa.</h1>
+        <p class="subtitle" data-i18n="hero_subtitle">Versão v1: simples, objetiva e ajustável.</p>
+      </header>
+
+      <section class="section-block">
+        <p class="section-label" data-i18n="section_sources">Fontes</p>
+        <p class="method-text" data-i18n="sources_text">Reddit (`hot`, `rising`, `new` em subreddits de IA) e GitHub (repositórios em alta e atividade recente).</p>
+      </section>
+
+      <section class="section-block">
+        <p class="section-label" data-i18n="section_score">Score</p>
+        <p class="method-text" data-i18n="score_text_a">Cada sinal recebe notas 0-100 em `recência`, `tração` e `aceleração`. Depois calcula `urgency_score`, `relevance_score` e `final_score`.</p>
+        <p class="method-text" data-i18n="score_text_b">Fórmula atual: `final = 0.6 * urgency + 0.4 * relevance`.</p>
+      </section>
+
+      <section class="section-block">
+        <p class="section-label" data-i18n="section_balance">Balanceamento</p>
+        <p class="method-text" data-i18n="balance_text">Se uma fonte domina excessivamente o topo, Nero aplica ajuste leve para manter diversidade entre Reddit e GitHub.</p>
+      </section>
+
+      <section class="section-block">
+        <p class="section-label" data-i18n="section_dedup">Deduplicação</p>
+        <p class="method-text" data-i18n="dedup_text">Links canonicamente iguais são agrupados. Para GitHub, diferentes links do mesmo repositório contam como o mesmo sinal.</p>
+      </section>
+
+      <section class="section-block">
+        <p class="section-label" data-i18n="section_bands">Faixas</p>
+        <p class="method-text" data-i18n="bands_text">`crítico` (80-100), `quente` (60-79), `observação` (0-59). O feed principal prioriza sinais acima de 40.</p>
+      </section>
+    </main>
+    <script src="ui-preferences.js"></script>
+    <script src="methodology.js"></script>
+  </body>
+</html>
