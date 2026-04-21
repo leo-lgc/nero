@@ -217,6 +217,13 @@ body {
   gap: 12px;
 }
 
+.section-meta {
+  display: inline-flex;
+  align-items: flex-end;
+  flex-direction: column;
+  gap: 4px;
+}
+
 .section-block {
   margin-top: 16px;
 }
@@ -551,6 +558,10 @@ body {
     align-items: flex-start;
     flex-direction: column;
     gap: 4px;
+  }
+
+  .section-meta {
+    align-items: flex-start;
   }
 
   .feed {

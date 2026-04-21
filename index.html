@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Nero - Sinais urgentes de IA</title>
+    <title>Nero Atlas - Sinais urgentes de IA</title>
     <link rel="icon" type="image/png" href="./neroicon.png" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -13,12 +13,12 @@
   <body>
     <main class="page">
       <header class="site-header">
-        <div class="brand" aria-label="Nero">
+        <div class="brand" aria-label="Nero Atlas">
           <span class="brand-mark" aria-hidden="true">
             <img src="./neroicon.png" alt="" />
           </span>
           <span class="brand-text">
-            <strong>Nero</strong>
+            <strong>Nero Atlas</strong>
             <small data-i18n="brand_tagline">Radar de sinais urgentes</small>
           </span>
         </div>
@@ -79,7 +79,10 @@
       <section class="section-block">
         <div class="section-head">
           <p class="section-label" data-i18n="section_full">Radar completo</p>
-          <p class="meta" id="meta"></p>
+          <div class="section-meta">
+            <p class="meta" id="meta"></p>
+            <p class="meta" id="last-updated"></p>
+          </div>
         </div>
         <section id="feed" class="feed" aria-live="polite"></section>
       </section>

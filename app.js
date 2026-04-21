@@ -30,6 +30,8 @@ const I18N = {
     section_full: "Radar completo",
     open_origin: "Abrir origem",
     meta_signals: "sinais",
+    last_update_prefix: "Última atualização",
+    last_update_unknown: "não disponível",
     empty_load: "Falha ao carregar sinais. Rode um servidor local e tente de novo.",
     empty_filter: "Nenhum sinal para esse filtro.",
     empty_hot: "Sem sinal crítico no momento.",
@@ -66,6 +68,8 @@ const I18N = {
     section_full: "Full radar",
     open_origin: "Open source",
     meta_signals: "signals",
+    last_update_prefix: "Last update",
+    last_update_unknown: "not available",
     empty_load: "Failed to load signals. Run a local server and try again.",
     empty_filter: "No signals for this filter.",
     empty_hot: "No critical signal right now.",
@@ -90,6 +94,7 @@ const I18N = {
 const feedEl = document.getElementById("feed");
 const hotFeedEl = document.getElementById("hot-feed");
 const metaEl = document.getElementById("meta");
+const lastUpdatedEl = document.getElementById("last-updated");
 const cardTemplate = document.getElementById("signal-card-template");
 const filterButtons = Array.from(document.querySelectorAll(".filter-btn"));
 const searchInput = document.getElementById("search-input");
@@ -102,6 +107,7 @@ let currentQuery = "";
 let currentTopic = "all";
 let currentSortMode = "urgent";
 let currentLang = getLang();
+let generatedAt = null;
 
 init();
 
@@ -111,12 +117,14 @@ async function init() {
     const response = await fetch("./data/signals.json");
     const payload = await response.json();
     allSignals = Array.isArray(payload.signals) ? payload.signals : [];
+    generatedAt = payload.generated_at || null;
     buildTopicOptions(allSignals);
     renderFeed();
     bindUI();
   } catch (error) {
     feedEl.innerHTML = `<p class="empty">${t("empty_load")}</p>`;
     metaEl.textContent = "";
+    renderLastUpdated();
     console.error(error);
   }
 }
@@ -163,6 +171,7 @@ function renderFeed() {
     .sort(sortSignals);
 
   metaEl.textContent = `${visible.length} ${t("meta_signals")}`;
+  renderLastUpdated();
 
   if (visible.length === 0) {
     hotFeedEl.innerHTML = "";
@@ -176,6 +185,31 @@ function renderFeed() {
 
   renderSignalList(hotFeedEl, hotSignals, true);
   renderSignalList(feedEl, regularSignals, false);
+}
+
+function renderLastUpdated() {
+  if (!lastUpdatedEl) return;
+
+  if (!generatedAt) {
+    lastUpdatedEl.textContent = `${t("last_update_prefix")}: ${t("last_update_unknown")}`;
+    return;
+  }
+
+  lastUpdatedEl.textContent = `${t("last_update_prefix")}: ${formatLastUpdated(generatedAt)}`;
+}
+
+function formatLastUpdated(isoDate) {
+  const date = new Date(isoDate);
+  if (Number.isNaN(date.getTime())) return t("last_update_unknown");
+
+  const locale = currentLang === "pt" ? "pt-BR" : "en-US";
+  return new Intl.DateTimeFormat(locale, {
+    day: "2-digit",
+    month: "2-digit",
+    year: "numeric",
+    hour: "2-digit",
+    minute: "2-digit"
+  }).format(date);
 }
 
 function renderSignalList(container, signals, isHot) {
