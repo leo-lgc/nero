@@ -32,22 +32,18 @@ Depois do deploy, valide:
 5. Confirme se o workflow terminou com sucesso.
 6. Verifique se houve novo commit automático atualizando `data/signals.json`.
 
-## 4. Alternativa mais precisa: Railway cron + GitHub
+## 4. Reforço local quando PC estiver ligado (Windows)
 
-Use quando quiser intervalo mais curto e mais previsível que o scheduler do GitHub.
+Este modo dispara o workflow da GitHub Actions periodicamente enquanto seu PC estiver ligado.
 
-1. Na Railway, crie um novo projeto a partir do repositório `leo-lgc/nero`.
-2. Configure variáveis de ambiente do serviço:
-   - `GH_PAT` = Personal Access Token com permissão `contents:write` no repositório.
-   - `GH_OWNER` = `leo-lgc`
-   - `GH_REPO` = `nero`
-   - `GH_BRANCH` = `main`
-3. Configure o comando de execução do job:
-   - `node scripts/railway-sync-signals.js`
-4. No scheduler da Railway, defina o cron desejado (ex: a cada 5 minutos).
-5. Rode uma execução manual para validar.
+Pré-requisito: GitHub CLI (`gh`) autenticado (`gh auth login`).
 
-Observação: esse fluxo gera commit no GitHub apenas quando `data/signals.json` muda.
+1. Execute `scripts\setup-windows-gh-trigger.bat`.
+2. Isso cria a tarefa `Nero_Trigger_GitHub_Actions`.
+3. A tarefa dispara `update-signals.yml` a cada 10 minutos.
+4. Para remover: `scripts\remove-windows-gh-trigger.bat`.
+
+Observação: o scheduler da GitHub Actions continua ativo. Este reforço local só aumenta a frequência.
 
 ## 5. Conferir produção
 
