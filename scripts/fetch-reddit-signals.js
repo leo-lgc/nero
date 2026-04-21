@@ -33,10 +33,14 @@ main().catch((error) => {
 async function main() {
   const [redditSignals, liveGithubSignals] = await Promise.all([fetchRedditSignals(), fetchGithubSignals()]);
 
+  const fallbackRedditSignals = loadSignalsBySource("reddit");
+  const finalRedditSignals = redditSignals.length > 0 ? redditSignals : fallbackRedditSignals;
+  const redditMode = redditSignals.length > 0 ? "live" : "fallback";
+
   const githubSignals = liveGithubSignals.length > 0 ? liveGithubSignals : loadGithubSignals();
   const githubMode = liveGithubSignals.length > 0 ? "live" : "fallback";
 
-  let mergedSignals = deduplicate([...redditSignals, ...githubSignals]);
+  let mergedSignals = deduplicate([...finalRedditSignals, ...githubSignals]);
   mergedSignals = rebalanceAcrossSources(mergedSignals);
 
   const outputSignals = mergedSignals
@@ -64,18 +68,25 @@ async function main() {
   const githubCount = outputSignals.filter((item) => item.source === "github").length;
 
   console.log(`Wrote ${outputSignals.length} signals -> ${outputPath}`);
-  console.log(`Reddit: ${redditCount}, GitHub: ${githubCount} (${githubMode})`);
+  console.log(`Reddit: ${redditCount} (${redditMode}), GitHub: ${githubCount} (${githubMode})`);
 }
 
 async function fetchRedditSignals() {
   const listings = [];
+  const redditHeaders = {
+    "User-Agent": "NeroSignalBot/0.4 (+https://neroatlas.space)",
+    Accept: "application/json"
+  };
 
   for (const subreddit of SUBREDDITS) {
     for (const mode of MODES) {
-      const url = `https://www.reddit.com/r/${subreddit}/${mode}.json?limit=${REDDIT_LIMIT}`;
-      const body = await safeFetchJson(url, {
-        "User-Agent": "NeroSignalBot/0.3"
-      });
+      const candidates = [
+        `https://www.reddit.com/r/${subreddit}/${mode}.json?limit=${REDDIT_LIMIT}&raw_json=1`,
+        `https://api.reddit.com/r/${subreddit}/${mode}?limit=${REDDIT_LIMIT}&raw_json=1`,
+        `https://old.reddit.com/r/${subreddit}/${mode}.json?limit=${REDDIT_LIMIT}&raw_json=1`
+      ];
+
+      const body = await firstSuccessfulJson(candidates, redditHeaders);
       const children = body?.data?.children || [];
 
       for (const child of children) {
@@ -362,16 +373,30 @@ function rebalanceAcrossSources(signals) {
 }
 
 function loadGithubSignals() {
+  return loadSignalsBySource("github");
+}
+
+function loadSignalsBySource(source) {
   const existing = path.join(__dirname, "..", "data", "signals.json");
   if (!fs.existsSync(existing)) return [];
 
   try {
     const body = JSON.parse(fs.readFileSync(existing, "utf8"));
     const items = Array.isArray(body.signals) ? body.signals : [];
-    return items.filter((item) => item.source === "github");
+    return items.filter((item) => item.source === source);
   } catch {
     return [];
   }
+}
+
+async function firstSuccessfulJson(urls, headers) {
+  for (const url of urls) {
+    const body = await safeFetchJson(url, headers);
+    if (body?.data?.children) {
+      return body;
+    }
+  }
+  return null;
 }
 
 async function safeFetchJson(url, headers) {
