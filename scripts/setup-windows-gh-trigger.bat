@@ -2,9 +2,10 @@
 setlocal
 
 set "TASK_NAME=Nero_Trigger_GitHub_Actions"
-set "RUNNER=%~sdp0run-gh-workflow-trigger.bat"
+for %%I in ("%~dp0run-gh-workflow-trigger.bat") do set "RUNNER=%%~fI"
+set "TASK_CMD=cmd.exe /c \"\"%RUNNER%\"\""
 
-schtasks /Create /SC MINUTE /MO 10 /TN "%TASK_NAME%" /TR "%RUNNER%" /F
+schtasks /Create /SC MINUTE /MO 10 /TN "%TASK_NAME%" /TR "%TASK_CMD%" /F
 
 if errorlevel 1 (
   echo Failed to create scheduled task: %TASK_NAME%
