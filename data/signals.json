@@ -1,7 +1,43 @@
 {
-  "generated_at": "2026-09-18T23:49:50.898Z",
+  "generated_at": "2026-09-19T01:41:23.982Z",
   "version": "signal-v0",
   "signals": [
+    {
+      "id": "sig_gh_1024554267_active",
+      "source": "github",
+      "source_item_id": "1024554267",
+      "source_subtype": "active",
+      "title": "NousResearch/hermes-agent ganha tração no GitHub",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "canonical_url": "https://github.com/NousResearch/hermes-agent",
+      "created_at": "2026-09-19T01:33:43.000Z",
+      "captured_at": "2026-09-19T01:41:23.083Z",
+      "metrics": {
+        "upvotes": null,
+        "comments": null,
+        "stars": 246924,
+        "forks": 51798
+      },
+      "tags": [
+        "modelos",
+        "agentes",
+        "pesquisa"
+      ],
+      "summary_1line": "Repositório com 246924 stars e 51798 forks em alta recente.",
+      "urgency_score": 87,
+      "relevance_score": 92,
+      "final_score": 89,
+      "priority_band": "critico",
+      "duplicate_group_id": null,
+      "related_count": 0,
+      "score_components": {
+        "recency": 99,
+        "traction": 100,
+        "acceleration": 73,
+        "quality": 84,
+        "topic": 84
+      }
+    },
     {
       "id": "sig_rd_1sr8p49",
       "source": "reddit",
@@ -104,73 +140,35 @@
       }
     },
     {
-      "id": "sig_gh_979115477_active",
+      "id": "sig_gh_599547518_active",
       "source": "github",
-      "source_item_id": "979115477",
+      "source_item_id": "599547518",
       "source_subtype": "active",
-      "title": "bytedance/deer-flow ganha tração no GitHub",
-      "url": "https://github.com/bytedance/deer-flow",
-      "canonical_url": "https://github.com/bytedance/deer-flow",
-      "created_at": "2026-09-18T23:44:05.000Z",
-      "captured_at": "2026-09-18T23:49:50.896Z",
+      "title": "vllm-project/vllm ganha tração no GitHub",
+      "url": "https://github.com/vllm-project/vllm",
+      "canonical_url": "https://github.com/vllm-project/vllm",
+      "created_at": "2026-09-19T01:36:45.000Z",
+      "captured_at": "2026-09-19T01:41:23.083Z",
       "metrics": {
         "upvotes": null,
         "comments": null,
-        "stars": 82657,
-        "forks": 11414
+        "stars": 92128,
+        "forks": 22392
       },
       "tags": [
-        "modelos",
-        "agentes",
-        "ferramentas-dev"
+        "modelos"
       ],
-      "summary_1line": "Repositório com 82657 stars e 11414 forks em alta recente.",
-      "urgency_score": 81,
-      "relevance_score": 91,
-      "final_score": 85,
-      "priority_band": "critico",
-      "duplicate_group_id": null,
-      "related_count": 0,
-      "score_components": {
-        "recency": 99,
-        "traction": 98,
-        "acceleration": 59,
-        "quality": 84,
-        "topic": 84
-      }
-    },
-    {
-      "id": "sig_gh_787076358_active",
-      "source": "github",
-      "source_item_id": "787076358",
-      "source_subtype": "active",
-      "title": "firecrawl/firecrawl ganha tração no GitHub",
-      "url": "https://github.com/firecrawl/firecrawl",
-      "canonical_url": "https://github.com/firecrawl/firecrawl",
-      "created_at": "2026-09-18T23:49:24.000Z",
-      "captured_at": "2026-09-18T23:49:50.896Z",
-      "metrics": {
-        "upvotes": null,
-        "comments": null,
-        "stars": 182007,
-        "forks": 9845
-      },
-      "tags": [
-        "modelos",
-        "agentes",
-        "ferramentas-dev"
-      ],
-      "summary_1line": "Repositório com 182007 stars e 9845 forks em alta recente.",
-      "urgency_score": 81,
+      "summary_1line": "Repositório com 92128 stars e 22392 forks em alta recente.",
+      "urgency_score": 78,
       "relevance_score": 92,
-      "final_score": 85,
+      "final_score": 84,
       "priority_band": "critico",
       "duplicate_group_id": null,
       "related_count": 0,
       "score_components": {
         "recency": 99,
         "traction": 100,
-        "acceleration": 59,
+        "acceleration": 52,
         "quality": 84,
         "topic": 84
       }
@@ -183,19 +181,19 @@
       "title": "unslothai/unsloth ganha tração no GitHub",
       "url": "https://github.com/unslothai/unsloth",
       "canonical_url": "https://github.com/unslothai/unsloth",
-      "created_at": "2026-09-18T23:38:29.000Z",
-      "captured_at": "2026-09-18T23:49:50.896Z",
+      "created_at": "2026-09-19T01:33:41.000Z",
+      "captured_at": "2026-09-19T01:41:23.083Z",
       "metrics": {
         "upvotes": null,
         "comments": null,
-        "stars": 76390,
-        "forks": 6975
+        "stars": 76396,
+        "forks": 6973
       },
       "tags": [
         "modelos",
         "agentes"
       ],
-      "summary_1line": "Repositório com 76390 stars e 6975 forks em alta recente.",
+      "summary_1line": "Repositório com 76396 stars e 6973 forks em alta recente.",
       "urgency_score": 77,
       "relevance_score": 91,
       "final_score": 83,
@@ -206,76 +204,6 @@
         "recency": 99,
         "traction": 97,
         "acceleration": 49,
-        "quality": 84,
-        "topic": 84
-      }
-    },
-    {
-      "id": "sig_gh_155220641_trending",
-      "source": "github",
-      "source_item_id": "155220641",
-      "source_subtype": "trending",
-      "title": "huggingface/transformers ganha tração no GitHub",
-      "url": "https://github.com/huggingface/transformers",
-      "canonical_url": "https://github.com/huggingface/transformers",
-      "created_at": "2026-09-18T23:31:10.000Z",
-      "captured_at": "2026-09-18T23:49:50.894Z",
-      "metrics": {
-        "upvotes": null,
-        "comments": null,
-        "stars": 166303,
-        "forks": 34628
-      },
-      "tags": [
-        "modelos",
-        "ferramentas-dev"
-      ],
-      "summary_1line": "Repositório com 166303 stars e 34628 forks em alta recente.",
-      "urgency_score": 77,
-      "relevance_score": 92,
-      "final_score": 83,
-      "priority_band": "critico",
-      "duplicate_group_id": null,
-      "related_count": 0,
-      "score_components": {
-        "recency": 99,
-        "traction": 100,
-        "acceleration": 49,
-        "quality": 84,
-        "topic": 84
-      }
-    },
-    {
-      "id": "sig_gh_45717250_trending",
-      "source": "github",
-      "source_item_id": "45717250",
-      "source_subtype": "trending",
-      "title": "tensorflow/tensorflow ganha tração no GitHub",
-      "url": "https://github.com/tensorflow/tensorflow",
-      "canonical_url": "https://github.com/tensorflow/tensorflow",
-      "created_at": "2026-09-18T23:32:52.000Z",
-      "captured_at": "2026-09-18T23:49:50.893Z",
-      "metrics": {
-        "upvotes": null,
-        "comments": null,
-        "stars": 200175,
-        "forks": 76813
-      },
-      "tags": [
-        "open-source",
-        "ferramentas-dev"
-      ],
-      "summary_1line": "Repositório com 200175 stars e 76813 forks em alta recente.",
-      "urgency_score": 77,
-      "relevance_score": 92,
-      "final_score": 83,
-      "priority_band": "critico",
-      "duplicate_group_id": null,
-      "related_count": 0,
-      "score_components": {
-        "recency": 99,
-        "traction": 100,
-        "acceleration": 50,
         "quality": 84,
         "topic": 84
       }
@@ -288,20 +216,20 @@
       "title": "BerriAI/litellm ganha tração no GitHub",
       "url": "https://github.com/BerriAI/litellm",
       "canonical_url": "https://github.com/BerriAI/litellm",
-      "created_at": "2026-09-18T23:49:24.000Z",
-      "captured_at": "2026-09-18T23:49:50.896Z",
+      "created_at": "2026-09-19T01:40:01.000Z",
+      "captured_at": "2026-09-19T01:41:23.083Z",
       "metrics": {
         "upvotes": null,
         "comments": null,
-        "stars": 59109,
-        "forks": 11567
+        "stars": 59112,
+        "forks": 11569
       },
       "tags": [
         "modelos",
         "ferramentas-dev",
         "seguranca"
       ],
-      "summary_1line": "Repositório com 59109 stars e 11567 forks em alta recente.",
+      "summary_1line": "Repositório com 59112 stars e 11569 forks em alta recente.",
       "urgency_score": 76,
       "relevance_score": 91,
       "final_score": 82,
@@ -312,6 +240,41 @@
         "recency": 99,
         "traction": 97,
         "acceleration": 47,
+        "quality": 84,
+        "topic": 84
+      }
+    },
+    {
+      "id": "sig_gh_45717250_trending",
+      "source": "github",
+      "source_item_id": "45717250",
+      "source_subtype": "trending",
+      "title": "tensorflow/tensorflow ganha tração no GitHub",
+      "url": "https://github.com/tensorflow/tensorflow",
+      "canonical_url": "https://github.com/tensorflow/tensorflow",
+      "created_at": "2026-09-19T00:54:37.000Z",
+      "captured_at": "2026-09-19T01:41:23.081Z",
+      "metrics": {
+        "upvotes": null,
+        "comments": null,
+        "stars": 200176,
+        "forks": 76823
+      },
+      "tags": [
+        "open-source",
+        "ferramentas-dev"
+      ],
+      "summary_1line": "Repositório com 200176 stars e 76823 forks em alta recente.",
+      "urgency_score": 76,
+      "relevance_score": 92,
+      "final_score": 82,
+      "priority_band": "critico",
+      "duplicate_group_id": null,
+      "related_count": 0,
+      "score_components": {
+        "recency": 97,
+        "traction": 100,
+        "acceleration": 50,
         "quality": 84,
         "topic": 84
       }
@@ -356,19 +319,19 @@
       "title": "sgl-project/sglang ganha tração no GitHub",
       "url": "https://github.com/sgl-project/sglang",
       "canonical_url": "https://github.com/sgl-project/sglang",
-      "created_at": "2026-09-18T23:46:40.000Z",
-      "captured_at": "2026-09-18T23:49:50.896Z",
+      "created_at": "2026-09-19T01:35:58.000Z",
+      "captured_at": "2026-09-19T01:41:23.083Z",
       "metrics": {
         "upvotes": null,
         "comments": null,
-        "stars": 36151,
+        "stars": 36152,
         "forks": 8978
       },
       "tags": [
         "modelos",
         "ferramentas-dev"
       ],
-      "summary_1line": "Repositório com 36151 stars e 8978 forks em alta recente.",
+      "summary_1line": "Repositório com 36152 stars e 8978 forks em alta recente.",
       "urgency_score": 75,
       "relevance_score": 89,
       "final_score": 81,
@@ -379,6 +342,41 @@
         "recency": 99,
         "traction": 93,
         "acceleration": 45,
+        "quality": 84,
+        "topic": 84
+      }
+    },
+    {
+      "id": "sig_gh_155220641_trending",
+      "source": "github",
+      "source_item_id": "155220641",
+      "source_subtype": "trending",
+      "title": "huggingface/transformers ganha tração no GitHub",
+      "url": "https://github.com/huggingface/transformers",
+      "canonical_url": "https://github.com/huggingface/transformers",
+      "created_at": "2026-09-19T00:10:23.000Z",
+      "captured_at": "2026-09-19T01:41:23.082Z",
+      "metrics": {
+        "upvotes": null,
+        "comments": null,
+        "stars": 166306,
+        "forks": 34626
+      },
+      "tags": [
+        "modelos",
+        "ferramentas-dev"
+      ],
+      "summary_1line": "Repositório com 166306 stars e 34626 forks em alta recente.",
+      "urgency_score": 74,
+      "relevance_score": 92,
+      "final_score": 81,
+      "priority_band": "critico",
+      "duplicate_group_id": null,
+      "related_count": 0,
+      "score_components": {
+        "recency": 94,
+        "traction": 100,
+        "acceleration": 49,
         "quality": 84,
         "topic": 84
       }
@@ -450,6 +448,42 @@
       }
     },
     {
+      "id": "sig_gh_1128204614_active",
+      "source": "github",
+      "source_item_id": "1128204614",
+      "source_subtype": "active",
+      "title": "1jehuang/jcode ganha tração no GitHub",
+      "url": "https://github.com/1jehuang/jcode",
+      "canonical_url": "https://github.com/1jehuang/jcode",
+      "created_at": "2026-09-19T01:41:03.000Z",
+      "captured_at": "2026-09-19T01:41:23.083Z",
+      "metrics": {
+        "upvotes": null,
+        "comments": null,
+        "stars": 19883,
+        "forks": 2300
+      },
+      "tags": [
+        "modelos",
+        "agentes",
+        "ferramentas-dev"
+      ],
+      "summary_1line": "Repositório com 19883 stars e 2300 forks em alta recente.",
+      "urgency_score": 77,
+      "relevance_score": 85,
+      "final_score": 80,
+      "priority_band": "critico",
+      "duplicate_group_id": null,
+      "related_count": 0,
+      "score_components": {
+        "recency": 99,
+        "traction": 86,
+        "acceleration": 50,
+        "quality": 84,
+        "topic": 84
+      }
+    },
+    {
       "id": "sig_rd_1sr140o",
       "source": "reddit",
       "source_item_id": "t3_1sr140o",
@@ -479,76 +513,6 @@
         "recency": 75,
         "traction": 59,
         "acceleration": 54,
-        "quality": 84,
-        "topic": 84
-      }
-    },
-    {
-      "id": "sig_gh_958830659_active",
-      "source": "github",
-      "source_item_id": "958830659",
-      "source_subtype": "active",
-      "title": "google/adk-python ganha tração no GitHub",
-      "url": "https://github.com/google/adk-python",
-      "canonical_url": "https://github.com/google/adk-python",
-      "created_at": "2026-09-18T23:35:05.000Z",
-      "captured_at": "2026-09-18T23:49:50.896Z",
-      "metrics": {
-        "upvotes": null,
-        "comments": null,
-        "stars": 21572,
-        "forks": 4032
-      },
-      "tags": [
-        "modelos",
-        "agentes",
-        "ferramentas-dev"
-      ],
-      "summary_1line": "Repositório com 21572 stars e 4032 forks em alta recente.",
-      "urgency_score": 75,
-      "relevance_score": 86,
-      "final_score": 79,
-      "priority_band": "quente",
-      "duplicate_group_id": null,
-      "related_count": 0,
-      "score_components": {
-        "recency": 99,
-        "traction": 88,
-        "acceleration": 45,
-        "quality": 84,
-        "topic": 84
-      }
-    },
-    {
-      "id": "sig_gh_323048702_trending",
-      "source": "github",
-      "source_item_id": "323048702",
-      "source_subtype": "trending",
-      "title": "OpenBB-finance/OpenBB ganha tração no GitHub",
-      "url": "https://github.com/OpenBB-finance/OpenBB",
-      "canonical_url": "https://github.com/OpenBB-finance/OpenBB",
-      "created_at": "2026-09-18T23:11:27.000Z",
-      "captured_at": "2026-09-18T23:49:50.895Z",
-      "metrics": {
-        "upvotes": null,
-        "comments": null,
-        "stars": 73212,
-        "forks": 7573
-      },
-      "tags": [
-        "agentes"
-      ],
-      "summary_1line": "Repositório com 73212 stars e 7573 forks em alta recente.",
-      "urgency_score": 72,
-      "relevance_score": 90,
-      "final_score": 79,
-      "priority_band": "quente",
-      "duplicate_group_id": null,
-      "related_count": 0,
-      "score_components": {
-        "recency": 97,
-        "traction": 96,
-        "acceleration": 41,
         "quality": 84,
         "topic": 84
       }
@@ -650,37 +614,73 @@
       }
     },
     {
-      "id": "sig_gh_1349253750_active",
+      "id": "sig_gh_764723738_active",
       "source": "github",
-      "source_item_id": "1349253750",
+      "source_item_id": "764723738",
       "source_subtype": "active",
-      "title": "Nanako0129/sepia ganha tração no GitHub",
-      "url": "https://github.com/Nanako0129/sepia",
-      "canonical_url": "https://github.com/Nanako0129/sepia",
-      "created_at": "2026-09-18T23:43:20.000Z",
-      "captured_at": "2026-09-18T23:49:50.896Z",
+      "title": "Skyvern-AI/skyvern ganha tração no GitHub",
+      "url": "https://github.com/Skyvern-AI/skyvern",
+      "canonical_url": "https://github.com/Skyvern-AI/skyvern",
+      "created_at": "2026-09-19T01:40:48.000Z",
+      "captured_at": "2026-09-19T01:41:23.083Z",
       "metrics": {
         "upvotes": null,
         "comments": null,
-        "stars": 2681,
-        "forks": 177
+        "stars": 23034,
+        "forks": 2167
       },
       "tags": [
         "modelos",
         "agentes",
         "ferramentas-dev"
       ],
-      "summary_1line": "Repositório com 2681 stars e 177 forks em alta recente.",
-      "urgency_score": 79,
-      "relevance_score": 76,
+      "summary_1line": "Repositório com 23034 stars e 2167 forks em alta recente.",
+      "urgency_score": 72,
+      "relevance_score": 86,
       "final_score": 78,
       "priority_band": "quente",
       "duplicate_group_id": null,
       "related_count": 0,
       "score_components": {
         "recency": 99,
-        "traction": 68,
-        "acceleration": 54,
+        "traction": 87,
+        "acceleration": 38,
+        "quality": 84,
+        "topic": 84
+      }
+    },
+    {
+      "id": "sig_gh_839037098_active",
+      "source": "github",
+      "source_item_id": "839037098",
+      "source_subtype": "active",
+      "title": "mastra-ai/mastra ganha tração no GitHub",
+      "url": "https://github.com/mastra-ai/mastra",
+      "canonical_url": "https://github.com/mastra-ai/mastra",
+      "created_at": "2026-09-19T01:38:50.000Z",
+      "captured_at": "2026-09-19T01:41:23.083Z",
+      "metrics": {
+        "upvotes": null,
+        "comments": null,
+        "stars": 28172,
+        "forks": 2820
+      },
+      "tags": [
+        "modelos",
+        "agentes",
+        "ferramentas-dev"
+      ],
+      "summary_1line": "Repositório com 28172 stars e 2820 forks em alta recente.",
+      "urgency_score": 73,
+      "relevance_score": 86,
+      "final_score": 78,
+      "priority_band": "quente",
+      "duplicate_group_id": null,
+      "related_count": 0,
+      "score_components": {
+        "recency": 99,
+        "traction": 88,
+        "acceleration": 41,
         "quality": 84,
         "topic": 84
       }
@@ -693,16 +693,16 @@
       "title": "pytorch/pytorch ganha tração no GitHub",
       "url": "https://github.com/pytorch/pytorch",
       "canonical_url": "https://github.com/pytorch/pytorch",
-      "created_at": "2026-09-18T23:46:50.000Z",
-      "captured_at": "2026-09-18T23:49:50.895Z",
+      "created_at": "2026-09-19T01:35:40.000Z",
+      "captured_at": "2026-09-19T01:41:23.082Z",
       "metrics": {
         "upvotes": null,
         "comments": null,
         "stars": 103089,
-        "forks": 29769
+        "forks": 29781
       },
       "tags": [],
-      "summary_1line": "Repositório com 103089 stars e 29769 forks em alta recente.",
+      "summary_1line": "Repositório com 103089 stars e 29781 forks em alta recente.",
       "urgency_score": 73,
       "relevance_score": 86,
       "final_score": 78,
@@ -814,41 +814,6 @@
       }
     },
     {
-      "id": "sig_gh_1303258850_active",
-      "source": "github",
-      "source_item_id": "1303258850",
-      "source_subtype": "active",
-      "title": "kirodotdev/KiroCrew ganha tração no GitHub",
-      "url": "https://github.com/kirodotdev/KiroCrew",
-      "canonical_url": "https://github.com/kirodotdev/KiroCrew",
-      "created_at": "2026-09-18T23:49:43.000Z",
-      "captured_at": "2026-09-18T23:49:50.896Z",
-      "metrics": {
-        "upvotes": null,
-        "comments": null,
-        "stars": 4003,
-        "forks": 618
-      },
-      "tags": [
-        "modelos",
-        "agentes"
-      ],
-      "summary_1line": "Repositório com 4003 stars e 618 forks em alta recente.",
-      "urgency_score": 76,
-      "relevance_score": 79,
-      "final_score": 77,
-      "priority_band": "quente",
-      "duplicate_group_id": null,
-      "related_count": 0,
-      "score_components": {
-        "recency": 99,
-        "traction": 73,
-        "acceleration": 48,
-        "quality": 84,
-        "topic": 84
-      }
-    },
-    {
       "id": "sig_gh_71932349_trending",
       "source": "github",
       "source_item_id": "71932349",
@@ -856,18 +821,18 @@
       "title": "ray-project/ray ganha tração no GitHub",
       "url": "https://github.com/ray-project/ray",
       "canonical_url": "https://github.com/ray-project/ray",
-      "created_at": "2026-09-18T23:33:15.000Z",
-      "captured_at": "2026-09-18T23:49:50.895Z",
+      "created_at": "2026-09-19T01:38:52.000Z",
+      "captured_at": "2026-09-19T01:41:23.083Z",
       "metrics": {
         "upvotes": null,
         "comments": null,
         "stars": 43869,
-        "forks": 8057
+        "forks": 8056
       },
       "tags": [
         "modelos"
       ],
-      "summary_1line": "Repositório com 43869 stars e 8057 forks em alta recente.",
+      "summary_1line": "Repositório com 43869 stars e 8056 forks em alta recente.",
       "urgency_score": 69,
       "relevance_score": 89,
       "final_score": 77,
@@ -883,71 +848,35 @@
       }
     },
     {
-      "id": "sig_gh_235860204_trending",
+      "id": "sig_gh_323048702_trending",
       "source": "github",
-      "source_item_id": "235860204",
+      "source_item_id": "323048702",
       "source_subtype": "trending",
-      "title": "deepspeedai/DeepSpeed ganha tração no GitHub",
-      "url": "https://github.com/deepspeedai/DeepSpeed",
-      "canonical_url": "https://github.com/deepspeedai/DeepSpeed",
-      "created_at": "2026-09-18T23:27:26.000Z",
-      "captured_at": "2026-09-18T23:49:50.895Z",
+      "title": "OpenBB-finance/OpenBB ganha tração no GitHub",
+      "url": "https://github.com/OpenBB-finance/OpenBB",
+      "canonical_url": "https://github.com/OpenBB-finance/OpenBB",
+      "created_at": "2026-09-18T23:11:27.000Z",
+      "captured_at": "2026-09-19T01:41:23.082Z",
       "metrics": {
         "upvotes": null,
         "comments": null,
-        "stars": 43136,
-        "forks": 4991
+        "stars": 73213,
+        "forks": 7573
       },
       "tags": [
-        "modelos",
-        "ferramentas-dev"
+        "agentes"
       ],
-      "summary_1line": "Repositório com 43136 stars e 4991 forks em alta recente.",
-      "urgency_score": 69,
-      "relevance_score": 88,
+      "summary_1line": "Repositório com 73213 stars e 7573 forks em alta recente.",
+      "urgency_score": 68,
+      "relevance_score": 90,
       "final_score": 77,
       "priority_band": "quente",
       "duplicate_group_id": null,
       "related_count": 0,
       "score_components": {
-        "recency": 98,
-        "traction": 92,
-        "acceleration": 34,
-        "quality": 84,
-        "topic": 84
-      }
-    },
-    {
-      "id": "sig_gh_191820100_trending",
-      "source": "github",
-      "source_item_id": "191820100",
-      "source_subtype": "trending",
-      "title": "google-ai-edge/mediapipe ganha tração no GitHub",
-      "url": "https://github.com/google-ai-edge/mediapipe",
-      "canonical_url": "https://github.com/google-ai-edge/mediapipe",
-      "created_at": "2026-09-18T23:35:19.000Z",
-      "captured_at": "2026-09-18T23:49:50.895Z",
-      "metrics": {
-        "upvotes": null,
-        "comments": null,
-        "stars": 36998,
-        "forks": 6164
-      },
-      "tags": [
-        "modelos",
-        "ferramentas-dev"
-      ],
-      "summary_1line": "Repositório com 36998 stars e 6164 forks em alta recente.",
-      "urgency_score": 69,
-      "relevance_score": 88,
-      "final_score": 77,
-      "priority_band": "quente",
-      "duplicate_group_id": null,
-      "related_count": 0,
-      "score_components": {
-        "recency": 99,
-        "traction": 92,
-        "acceleration": 33,
+        "recency": 90,
+        "traction": 96,
+        "acceleration": 41,
         "quality": 84,
         "topic": 84
       }
@@ -1119,6 +1048,41 @@
       }
     },
     {
+      "id": "sig_gh_33884891_trending",
+      "source": "github",
+      "source_item_id": "33884891",
+      "source_subtype": "trending",
+      "title": "apache/airflow ganha tração no GitHub",
+      "url": "https://github.com/apache/airflow",
+      "canonical_url": "https://github.com/apache/airflow",
+      "created_at": "2026-09-18T23:59:35.000Z",
+      "captured_at": "2026-09-19T01:41:23.083Z",
+      "metrics": {
+        "upvotes": null,
+        "comments": null,
+        "stars": 46890,
+        "forks": 17863
+      },
+      "tags": [
+        "agentes",
+        "open-source"
+      ],
+      "summary_1line": "Repositório com 46890 stars e 17863 forks em alta recente.",
+      "urgency_score": 66,
+      "relevance_score": 91,
+      "final_score": 76,
+      "priority_band": "quente",
+      "duplicate_group_id": null,
+      "related_count": 0,
+      "score_components": {
+        "recency": 93,
+        "traction": 98,
+        "acceleration": 34,
+        "quality": 84,
+        "topic": 84
+      }
+    },
+    {
       "id": "sig_gh_1309102418_active",
       "source": "github",
       "source_item_id": "1309102418",
@@ -1126,8 +1090,8 @@
       "title": "makecindy/cindy ganha tração no GitHub",
       "url": "https://github.com/makecindy/cindy",
       "canonical_url": "https://github.com/makecindy/cindy",
-      "created_at": "2026-09-18T23:45:44.000Z",
-      "captured_at": "2026-09-18T23:49:50.896Z",
+      "created_at": "2026-09-19T01:41:03.000Z",
+      "captured_at": "2026-09-19T01:41:23.083Z",
       "metrics": {
         "upvotes": null,
         "comments": null,
@@ -1149,40 +1113,6 @@
         "recency": 99,
         "traction": 70,
         "acceleration": 45,
-        "quality": 84,
-        "topic": 84
-      }
-    },
-    {
-      "id": "sig_gh_162405963_trending",
-      "source": "github",
-      "source_item_id": "162405963",
-      "source_subtype": "trending",
-      "title": "gradio-app/gradio ganha tração no GitHub",
-      "url": "https://github.com/gradio-app/gradio",
-      "canonical_url": "https://github.com/gradio-app/gradio",
-      "created_at": "2026-09-18T23:08:06.000Z",
-      "captured_at": "2026-09-18T23:49:50.895Z",
-      "metrics": {
-        "upvotes": null,
-        "comments": null,
-        "stars": 43578,
-        "forks": 3605
-      },
-      "tags": [
-        "modelos"
-      ],
-      "summary_1line": "Repositório com 43578 stars e 3605 forks em alta recente.",
-      "urgency_score": 68,
-      "relevance_score": 88,
-      "final_score": 76,
-      "priority_band": "quente",
-      "duplicate_group_id": null,
-      "related_count": 0,
-      "score_components": {
-        "recency": 97,
-        "traction": 92,
-        "acceleration": 32,
         "quality": 84,
         "topic": 84
       }
@@ -1290,67 +1220,32 @@
       }
     },
     {
-      "id": "sig_gh_33884891_trending",
+      "id": "sig_gh_10744183_trending",
       "source": "github",
-      "source_item_id": "33884891",
+      "source_item_id": "10744183",
       "source_subtype": "trending",
-      "title": "apache/airflow ganha tração no GitHub",
-      "url": "https://github.com/apache/airflow",
-      "canonical_url": "https://github.com/apache/airflow",
-      "created_at": "2026-09-18T20:58:46.000Z",
-      "captured_at": "2026-09-18T23:49:50.895Z",
+      "title": "netdata/netdata ganha tração no GitHub",
+      "url": "https://github.com/netdata/netdata",
+      "canonical_url": "https://github.com/netdata/netdata",
+      "created_at": "2026-09-19T00:21:55.000Z",
+      "captured_at": "2026-09-19T01:41:23.082Z",
       "metrics": {
         "upvotes": null,
         "comments": null,
-        "stars": 46890,
-        "forks": 17863
-      },
-      "tags": [
-        "agentes",
-        "open-source"
-      ],
-      "summary_1line": "Repositório com 46890 stars e 17863 forks em alta recente.",
-      "urgency_score": 64,
-      "relevance_score": 91,
-      "final_score": 75,
-      "priority_band": "quente",
-      "duplicate_group_id": null,
-      "related_count": 0,
-      "score_components": {
-        "recency": 89,
-        "traction": 98,
-        "acceleration": 34,
-        "quality": 84,
-        "topic": 84
-      }
-    },
-    {
-      "id": "sig_gh_204086862_trending",
-      "source": "github",
-      "source_item_id": "204086862",
-      "source_subtype": "trending",
-      "title": "streamlit/streamlit ganha tração no GitHub",
-      "url": "https://github.com/streamlit/streamlit",
-      "canonical_url": "https://github.com/streamlit/streamlit",
-      "created_at": "2026-09-18T23:35:56.000Z",
-      "captured_at": "2026-09-18T23:49:50.895Z",
-      "metrics": {
-        "upvotes": null,
-        "comments": null,
-        "stars": 45782,
-        "forks": 4383
+        "stars": 80575,
+        "forks": 6629
       },
       "tags": [],
-      "summary_1line": "Repositório com 45782 stars e 4383 forks em alta recente.",
-      "urgency_score": 70,
-      "relevance_score": 82,
+      "summary_1line": "Repositório com 80575 stars e 6629 forks em alta recente.",
+      "urgency_score": 68,
+      "relevance_score": 85,
       "final_score": 75,
       "priority_band": "quente",
       "duplicate_group_id": null,
       "related_count": 0,
       "score_components": {
-        "recency": 99,
-        "traction": 92,
+        "recency": 95,
+        "traction": 97,
         "acceleration": 34,
         "quality": 84,
         "topic": 56
@@ -1389,37 +1284,209 @@
       }
     },
     {
-      "id": "sig_gh_1039587768_active",
+      "id": "sig_gh_204086862_trending",
       "source": "github",
-      "source_item_id": "1039587768",
-      "source_subtype": "active",
-      "title": "osaurus-ai/osaurus ganha tração no GitHub",
-      "url": "https://github.com/osaurus-ai/osaurus",
-      "canonical_url": "https://github.com/osaurus-ai/osaurus",
-      "created_at": "2026-09-18T23:39:45.000Z",
-      "captured_at": "2026-09-18T23:49:50.896Z",
+      "source_item_id": "204086862",
+      "source_subtype": "trending",
+      "title": "streamlit/streamlit ganha tração no GitHub",
+      "url": "https://github.com/streamlit/streamlit",
+      "canonical_url": "https://github.com/streamlit/streamlit",
+      "created_at": "2026-09-19T01:05:11.000Z",
+      "captured_at": "2026-09-19T01:41:23.083Z",
       "metrics": {
         "upvotes": null,
         "comments": null,
-        "stars": 7968,
-        "forks": 473
+        "stars": 45782,
+        "forks": 4383
+      },
+      "tags": [],
+      "summary_1line": "Repositório com 45782 stars e 4383 forks em alta recente.",
+      "urgency_score": 69,
+      "relevance_score": 82,
+      "final_score": 74,
+      "priority_band": "quente",
+      "duplicate_group_id": null,
+      "related_count": 0,
+      "score_components": {
+        "recency": 98,
+        "traction": 92,
+        "acceleration": 34,
+        "quality": 84,
+        "topic": 56
+      }
+    },
+    {
+      "id": "sig_gh_162405963_trending",
+      "source": "github",
+      "source_item_id": "162405963",
+      "source_subtype": "trending",
+      "title": "gradio-app/gradio ganha tração no GitHub",
+      "url": "https://github.com/gradio-app/gradio",
+      "canonical_url": "https://github.com/gradio-app/gradio",
+      "created_at": "2026-09-18T23:08:06.000Z",
+      "captured_at": "2026-09-19T01:41:23.083Z",
+      "metrics": {
+        "upvotes": null,
+        "comments": null,
+        "stars": 43580,
+        "forks": 3605
+      },
+      "tags": [
+        "modelos"
+      ],
+      "summary_1line": "Repositório com 43580 stars e 3605 forks em alta recente.",
+      "urgency_score": 64,
+      "relevance_score": 88,
+      "final_score": 74,
+      "priority_band": "quente",
+      "duplicate_group_id": null,
+      "related_count": 0,
+      "score_components": {
+        "recency": 90,
+        "traction": 92,
+        "acceleration": 32,
+        "quality": 84,
+        "topic": 84
+      }
+    },
+    {
+      "id": "sig_gh_235860204_trending",
+      "source": "github",
+      "source_item_id": "235860204",
+      "source_subtype": "trending",
+      "title": "deepspeedai/DeepSpeed ganha tração no GitHub",
+      "url": "https://github.com/deepspeedai/DeepSpeed",
+      "canonical_url": "https://github.com/deepspeedai/DeepSpeed",
+      "created_at": "2026-09-18T23:27:26.000Z",
+      "captured_at": "2026-09-19T01:41:23.083Z",
+      "metrics": {
+        "upvotes": null,
+        "comments": null,
+        "stars": 43136,
+        "forks": 4991
+      },
+      "tags": [
+        "modelos",
+        "ferramentas-dev"
+      ],
+      "summary_1line": "Repositório com 43136 stars e 4991 forks em alta recente.",
+      "urgency_score": 65,
+      "relevance_score": 88,
+      "final_score": 74,
+      "priority_band": "quente",
+      "duplicate_group_id": null,
+      "related_count": 0,
+      "score_components": {
+        "recency": 91,
+        "traction": 92,
+        "acceleration": 34,
+        "quality": 84,
+        "topic": 84
+      }
+    },
+    {
+      "id": "sig_gh_191820100_trending",
+      "source": "github",
+      "source_item_id": "191820100",
+      "source_subtype": "trending",
+      "title": "google-ai-edge/mediapipe ganha tração no GitHub",
+      "url": "https://github.com/google-ai-edge/mediapipe",
+      "canonical_url": "https://github.com/google-ai-edge/mediapipe",
+      "created_at": "2026-09-18T23:35:19.000Z",
+      "captured_at": "2026-09-19T01:41:23.083Z",
+      "metrics": {
+        "upvotes": null,
+        "comments": null,
+        "stars": 36999,
+        "forks": 6164
+      },
+      "tags": [
+        "modelos",
+        "ferramentas-dev"
+      ],
+      "summary_1line": "Repositório com 36999 stars e 6164 forks em alta recente.",
+      "urgency_score": 65,
+      "relevance_score": 88,
+      "final_score": 74,
+      "priority_band": "quente",
+      "duplicate_group_id": null,
+      "related_count": 0,
+      "score_components": {
+        "recency": 92,
+        "traction": 92,
+        "acceleration": 33,
+        "quality": 84,
+        "topic": 84
+      }
+    },
+    {
+      "id": "sig_gh_900461318_active",
+      "source": "github",
+      "source_item_id": "900461318",
+      "source_subtype": "active",
+      "title": "tailcallhq/forgecode ganha tração no GitHub",
+      "url": "https://github.com/tailcallhq/forgecode",
+      "canonical_url": "https://github.com/tailcallhq/forgecode",
+      "created_at": "2026-09-19T01:40:40.000Z",
+      "captured_at": "2026-09-19T01:41:23.083Z",
+      "metrics": {
+        "upvotes": null,
+        "comments": null,
+        "stars": 7634,
+        "forks": 1466
       },
       "tags": [
         "modelos",
         "agentes",
-        "open-source"
+        "ferramentas-dev"
       ],
-      "summary_1line": "Repositório com 7968 stars e 473 forks em alta recente.",
-      "urgency_score": 70,
-      "relevance_score": 81,
+      "summary_1line": "Repositório com 7634 stars e 1466 forks em alta recente.",
+      "urgency_score": 69,
+      "relevance_score": 82,
       "final_score": 74,
       "priority_band": "quente",
       "duplicate_group_id": null,
       "related_count": 0,
       "score_components": {
         "recency": 99,
-        "traction": 77,
-        "acceleration": 35,
+        "traction": 79,
+        "acceleration": 32,
+        "quality": 84,
+        "topic": 84
+      }
+    },
+    {
+      "id": "sig_gh_1316317581_active",
+      "source": "github",
+      "source_item_id": "1316317581",
+      "source_subtype": "active",
+      "title": "redhat-et/ripwire ganha tração no GitHub",
+      "url": "https://github.com/redhat-et/ripwire",
+      "canonical_url": "https://github.com/redhat-et/ripwire",
+      "created_at": "2026-09-19T01:38:30.000Z",
+      "captured_at": "2026-09-19T01:41:23.083Z",
+      "metrics": {
+        "upvotes": null,
+        "comments": null,
+        "stars": 2256,
+        "forks": 145
+      },
+      "tags": [
+        "modelos",
+        "agentes",
+        "open-source"
+      ],
+      "summary_1line": "Repositório com 2256 stars e 145 forks em alta recente.",
+      "urgency_score": 74,
+      "relevance_score": 75,
+      "final_score": 74,
+      "priority_band": "quente",
+      "duplicate_group_id": null,
+      "related_count": 0,
+      "score_components": {
+        "recency": 99,
+        "traction": 66,
+        "acceleration": 43,
         "quality": 84,
         "topic": 84
       }
@@ -1558,108 +1625,6 @@
       }
     },
     {
-      "id": "sig_gh_1374561793_active",
-      "source": "github",
-      "source_item_id": "1374561793",
-      "source_subtype": "active",
-      "title": "yibie/awesome-jev ganha tração no GitHub",
-      "url": "https://github.com/yibie/awesome-jev",
-      "canonical_url": "https://github.com/yibie/awesome-jev",
-      "created_at": "2026-09-18T23:44:09.000Z",
-      "captured_at": "2026-09-18T23:49:50.896Z",
-      "metrics": {
-        "upvotes": null,
-        "comments": null,
-        "stars": 163,
-        "forks": 24
-      },
-      "tags": [
-        "modelos"
-      ],
-      "summary_1line": "Repositório com 163 stars e 24 forks em alta recente.",
-      "urgency_score": 79,
-      "relevance_score": 65,
-      "final_score": 73,
-      "priority_band": "quente",
-      "duplicate_group_id": null,
-      "related_count": 0,
-      "score_components": {
-        "recency": 99,
-        "traction": 46,
-        "acceleration": 55,
-        "quality": 84,
-        "topic": 84
-      }
-    },
-    {
-      "id": "sig_gh_1167034425_active",
-      "source": "github",
-      "source_item_id": "1167034425",
-      "source_subtype": "active",
-      "title": "NVIDIA/skills ganha tração no GitHub",
-      "url": "https://github.com/NVIDIA/skills",
-      "canonical_url": "https://github.com/NVIDIA/skills",
-      "created_at": "2026-09-18T23:40:04.000Z",
-      "captured_at": "2026-09-18T23:49:50.896Z",
-      "metrics": {
-        "upvotes": null,
-        "comments": null,
-        "stars": 3349,
-        "forks": 401
-      },
-      "tags": [
-        "modelos",
-        "agentes",
-        "ferramentas-dev"
-      ],
-      "summary_1line": "Repositório com 3349 stars e 401 forks em alta recente.",
-      "urgency_score": 70,
-      "relevance_score": 78,
-      "final_score": 73,
-      "priority_band": "quente",
-      "duplicate_group_id": null,
-      "related_count": 0,
-      "score_components": {
-        "recency": 99,
-        "traction": 71,
-        "acceleration": 34,
-        "quality": 84,
-        "topic": 84
-      }
-    },
-    {
-      "id": "sig_gh_10744183_trending",
-      "source": "github",
-      "source_item_id": "10744183",
-      "source_subtype": "trending",
-      "title": "netdata/netdata ganha tração no GitHub",
-      "url": "https://github.com/netdata/netdata",
-      "canonical_url": "https://github.com/netdata/netdata",
-      "created_at": "2026-09-18T21:12:43.000Z",
-      "captured_at": "2026-09-18T23:49:50.895Z",
-      "metrics": {
-        "upvotes": null,
-        "comments": null,
-        "stars": 80574,
-        "forks": 6629
-      },
-      "tags": [],
-      "summary_1line": "Repositório com 80574 stars e 6629 forks em alta recente.",
-      "urgency_score": 65,
-      "relevance_score": 85,
-      "final_score": 73,
-      "priority_band": "quente",
-      "duplicate_group_id": null,
-      "related_count": 0,
-      "score_components": {
-        "recency": 90,
-        "traction": 97,
-        "acceleration": 34,
-        "quality": 84,
-        "topic": 56
-      }
-    },
-    {
       "id": "sig_gh_1644196_trending",
       "source": "github",
       "source_item_id": "1644196",
@@ -1667,8 +1632,8 @@
       "title": "JuliaLang/julia ganha tração no GitHub",
       "url": "https://github.com/JuliaLang/julia",
       "canonical_url": "https://github.com/JuliaLang/julia",
-      "created_at": "2026-09-18T23:44:48.000Z",
-      "captured_at": "2026-09-18T23:49:50.895Z",
+      "created_at": "2026-09-19T01:35:06.000Z",
+      "captured_at": "2026-09-19T01:41:23.083Z",
       "metrics": {
         "upvotes": null,
         "comments": null,
@@ -1689,6 +1654,40 @@
         "acceleration": 28,
         "quality": 84,
         "topic": 56
+      }
+    },
+    {
+      "id": "sig_gh_1198539_trending",
+      "source": "github",
+      "source_item_id": "1198539",
+      "source_subtype": "trending",
+      "title": "lutzroeder/netron ganha tração no GitHub",
+      "url": "https://github.com/lutzroeder/netron",
+      "canonical_url": "https://github.com/lutzroeder/netron",
+      "created_at": "2026-09-19T01:10:16.000Z",
+      "captured_at": "2026-09-19T01:41:23.083Z",
+      "metrics": {
+        "upvotes": null,
+        "comments": null,
+        "stars": 33494,
+        "forks": 3185
+      },
+      "tags": [
+        "modelos"
+      ],
+      "summary_1line": "Repositório com 33494 stars e 3185 forks em alta recente.",
+      "urgency_score": 64,
+      "relevance_score": 87,
+      "final_score": 73,
+      "priority_band": "quente",
+      "duplicate_group_id": null,
+      "related_count": 0,
+      "score_components": {
+        "recency": 98,
+        "traction": 90,
+        "acceleration": 23,
+        "quality": 84,
+        "topic": 84
       }
     },
     {
@@ -1858,105 +1857,35 @@
       }
     },
     {
-      "id": "sig_gh_973788136_active",
+      "id": "sig_gh_268163609_trending",
       "source": "github",
-      "source_item_id": "973788136",
-      "source_subtype": "active",
-      "title": "taylorwilsdon/google_workspace_mcp ganha tração no GitHub",
-      "url": "https://github.com/taylorwilsdon/google_workspace_mcp",
-      "canonical_url": "https://github.com/taylorwilsdon/google_workspace_mcp",
-      "created_at": "2026-09-18T23:44:56.000Z",
-      "captured_at": "2026-09-18T23:49:50.896Z",
-      "metrics": {
-        "upvotes": null,
-        "comments": null,
-        "stars": 3189,
-        "forks": 996
-      },
-      "tags": [
-        "modelos",
-        "ferramentas-dev"
-      ],
-      "summary_1line": "Repositório com 3189 stars e 996 forks em alta recente.",
-      "urgency_score": 67,
-      "relevance_score": 79,
-      "final_score": 72,
-      "priority_band": "quente",
-      "duplicate_group_id": null,
-      "related_count": 0,
-      "score_components": {
-        "recency": 99,
-        "traction": 74,
-        "acceleration": 28,
-        "quality": 84,
-        "topic": 84
-      }
-    },
-    {
-      "id": "sig_gh_33015583_trending",
-      "source": "github",
-      "source_item_id": "33015583",
+      "source_item_id": "268163609",
       "source_subtype": "trending",
-      "title": "keras-team/keras ganha tração no GitHub",
-      "url": "https://github.com/keras-team/keras",
-      "canonical_url": "https://github.com/keras-team/keras",
-      "created_at": "2026-09-18T19:39:05.000Z",
-      "captured_at": "2026-09-18T23:49:50.895Z",
+      "title": "qdrant/qdrant ganha tração no GitHub",
+      "url": "https://github.com/qdrant/qdrant",
+      "canonical_url": "https://github.com/qdrant/qdrant",
+      "created_at": "2026-09-18T23:51:59.000Z",
+      "captured_at": "2026-09-19T01:41:23.083Z",
       "metrics": {
         "upvotes": null,
         "comments": null,
-        "stars": 64321,
-        "forks": 19800
+        "stars": 34665,
+        "forks": 2684
       },
       "tags": [],
-      "summary_1line": "Repositório com 64321 stars e 19800 forks em alta recente.",
-      "urgency_score": 62,
-      "relevance_score": 86,
+      "summary_1line": "Repositório com 34665 stars e 2684 forks em alta recente.",
+      "urgency_score": 66,
+      "relevance_score": 81,
       "final_score": 72,
       "priority_band": "quente",
       "duplicate_group_id": null,
       "related_count": 0,
       "score_components": {
-        "recency": 84,
-        "traction": 99,
-        "acceleration": 36,
+        "recency": 93,
+        "traction": 90,
+        "acceleration": 32,
         "quality": 84,
         "topic": 56
-      }
-    },
-    {
-      "id": "sig_gh_458648791_trending",
-      "source": "github",
-      "source_item_id": "458648791",
-      "source_subtype": "trending",
-      "title": "paperless-ngx/paperless-ngx ganha tração no GitHub",
-      "url": "https://github.com/paperless-ngx/paperless-ngx",
-      "canonical_url": "https://github.com/paperless-ngx/paperless-ngx",
-      "created_at": "2026-09-18T19:07:49.000Z",
-      "captured_at": "2026-09-18T23:49:50.895Z",
-      "metrics": {
-        "upvotes": null,
-        "comments": null,
-        "stars": 45282,
-        "forks": 3122
-      },
-      "tags": [
-        "modelos",
-        "pesquisa"
-      ],
-      "summary_1line": "Repositório com 45282 stars e 3122 forks em alta recente.",
-      "urgency_score": 62,
-      "relevance_score": 88,
-      "final_score": 72,
-      "priority_band": "quente",
-      "duplicate_group_id": null,
-      "related_count": 0,
-      "score_components": {
-        "recency": 82,
-        "traction": 92,
-        "acceleration": 38,
-        "quality": 84,
-        "topic": 84
       }
     },
     {
@@ -2094,72 +2023,36 @@
       }
     },
     {
-      "id": "sig_gh_1202251960_active",
+      "id": "sig_gh_458648791_trending",
       "source": "github",
-      "source_item_id": "1202251960",
-      "source_subtype": "active",
-      "title": "atomicstrata/llm-wiki-compiler ganha tração no GitHub",
-      "url": "https://github.com/atomicstrata/llm-wiki-compiler",
-      "canonical_url": "https://github.com/atomicstrata/llm-wiki-compiler",
-      "created_at": "2026-09-18T23:47:07.000Z",
-      "captured_at": "2026-09-18T23:49:50.896Z",
+      "source_item_id": "458648791",
+      "source_subtype": "trending",
+      "title": "paperless-ngx/paperless-ngx ganha tração no GitHub",
+      "url": "https://github.com/paperless-ngx/paperless-ngx",
+      "canonical_url": "https://github.com/paperless-ngx/paperless-ngx",
+      "created_at": "2026-09-18T19:07:49.000Z",
+      "captured_at": "2026-09-19T01:41:23.083Z",
       "metrics": {
         "upvotes": null,
         "comments": null,
-        "stars": 2033,
-        "forks": 209
+        "stars": 45283,
+        "forks": 3122
       },
       "tags": [
         "modelos",
-        "ferramentas-dev"
+        "pesquisa"
       ],
-      "summary_1line": "Repositório com 2033 stars e 209 forks em alta recente.",
-      "urgency_score": 68,
-      "relevance_score": 75,
+      "summary_1line": "Repositório com 45283 stars e 3122 forks em alta recente.",
+      "urgency_score": 59,
+      "relevance_score": 88,
       "final_score": 71,
       "priority_band": "quente",
       "duplicate_group_id": null,
       "related_count": 0,
       "score_components": {
-        "recency": 99,
-        "traction": 66,
-        "acceleration": 30,
-        "quality": 84,
-        "topic": 84
-      }
-    },
-    {
-      "id": "sig_gh_1138589051_active",
-      "source": "github",
-      "source_item_id": "1138589051",
-      "source_subtype": "active",
-      "title": "rynfar/meridian ganha tração no GitHub",
-      "url": "https://github.com/rynfar/meridian",
-      "canonical_url": "https://github.com/rynfar/meridian",
-      "created_at": "2026-09-18T23:47:02.000Z",
-      "captured_at": "2026-09-18T23:49:50.896Z",
-      "metrics": {
-        "upvotes": null,
-        "comments": null,
-        "stars": 2028,
-        "forks": 223
-      },
-      "tags": [
-        "modelos",
-        "agentes",
-        "ferramentas-dev"
-      ],
-      "summary_1line": "Repositório com 2028 stars e 223 forks em alta recente.",
-      "urgency_score": 67,
-      "relevance_score": 76,
-      "final_score": 71,
-      "priority_band": "quente",
-      "duplicate_group_id": null,
-      "related_count": 0,
-      "score_components": {
-        "recency": 99,
-        "traction": 67,
-        "acceleration": 27,
+        "recency": 76,
+        "traction": 92,
+        "acceleration": 38,
         "quality": 84,
         "topic": 84
       }
@@ -2263,70 +2156,35 @@
       }
     },
     {
-      "id": "sig_gh_634043200_trending",
+      "id": "sig_gh_33015583_trending",
       "source": "github",
-      "source_item_id": "634043200",
+      "source_item_id": "33015583",
       "source_subtype": "trending",
-      "title": "modular/modular ganha tração no GitHub",
-      "url": "https://github.com/modular/modular",
-      "canonical_url": "https://github.com/modular/modular",
-      "created_at": "2026-09-18T18:43:39.000Z",
-      "captured_at": "2026-09-18T23:49:50.896Z",
+      "title": "keras-team/keras ganha tração no GitHub",
+      "url": "https://github.com/keras-team/keras",
+      "canonical_url": "https://github.com/keras-team/keras",
+      "created_at": "2026-09-18T19:39:05.000Z",
+      "captured_at": "2026-09-19T01:41:23.082Z",
       "metrics": {
         "upvotes": null,
         "comments": null,
-        "stars": 29818,
-        "forks": 3177
+        "stars": 64321,
+        "forks": 19800
       },
       "tags": [],
-      "summary_1line": "Repositório com 29818 stars e 3177 forks em alta recente.",
-      "urgency_score": 62,
-      "relevance_score": 81,
+      "summary_1line": "Repositório com 64321 stars e 19800 forks em alta recente.",
+      "urgency_score": 59,
+      "relevance_score": 86,
       "final_score": 70,
       "priority_band": "quente",
       "duplicate_group_id": null,
       "related_count": 0,
       "score_components": {
-        "recency": 81,
-        "traction": 89,
-        "acceleration": 38,
+        "recency": 78,
+        "traction": 99,
+        "acceleration": 36,
         "quality": 84,
         "topic": 56
-      }
-    },
-    {
-      "id": "sig_gh_216628419_active",
-      "source": "github",
-      "source_item_id": "216628419",
-      "source_subtype": "active",
-      "title": "flyteorg/flyte ganha tração no GitHub",
-      "url": "https://github.com/flyteorg/flyte",
-      "canonical_url": "https://github.com/flyteorg/flyte",
-      "created_at": "2026-09-18T23:39:48.000Z",
-      "captured_at": "2026-09-18T23:49:50.896Z",
-      "metrics": {
-        "upvotes": null,
-        "comments": null,
-        "stars": 7527,
-        "forks": 888
-      },
-      "tags": [
-        "modelos",
-        "agentes"
-      ],
-      "summary_1line": "Repositório com 7527 stars e 888 forks em alta recente.",
-      "urgency_score": 63,
-      "relevance_score": 81,
-      "final_score": 70,
-      "priority_band": "quente",
-      "duplicate_group_id": null,
-      "related_count": 0,
-      "score_components": {
-        "recency": 99,
-        "traction": 78,
-        "acceleration": 18,
-        "quality": 84,
-        "topic": 84
       }
     },
     {
@@ -2529,106 +2387,6 @@
       }
     },
     {
-      "id": "sig_gh_1234537369_active",
-      "source": "github",
-      "source_item_id": "1234537369",
-      "source_subtype": "active",
-      "title": "Gentleman-Programming/gentle-shell ganha tração no GitHub",
-      "url": "https://github.com/Gentleman-Programming/gentle-shell",
-      "canonical_url": "https://github.com/Gentleman-Programming/gentle-shell",
-      "created_at": "2026-09-18T23:37:40.000Z",
-      "captured_at": "2026-09-18T23:49:50.896Z",
-      "metrics": {
-        "upvotes": null,
-        "comments": null,
-        "stars": 911,
-        "forks": 132
-      },
-      "tags": [
-        "modelos",
-        "agentes",
-        "seguranca"
-      ],
-      "summary_1line": "Repositório com 911 stars e 132 forks em alta recente.",
-      "urgency_score": 66,
-      "relevance_score": 73,
-      "final_score": 69,
-      "priority_band": "quente",
-      "duplicate_group_id": null,
-      "related_count": 0,
-      "score_components": {
-        "recency": 99,
-        "traction": 61,
-        "acceleration": 26,
-        "quality": 84,
-        "topic": 84
-      }
-    },
-    {
-      "id": "sig_gh_843222_trending",
-      "source": "github",
-      "source_item_id": "843222",
-      "source_subtype": "trending",
-      "title": "scikit-learn/scikit-learn ganha tração no GitHub",
-      "url": "https://github.com/scikit-learn/scikit-learn",
-      "canonical_url": "https://github.com/scikit-learn/scikit-learn",
-      "created_at": "2026-09-18T17:14:10.000Z",
-      "captured_at": "2026-09-18T23:49:50.895Z",
-      "metrics": {
-        "upvotes": null,
-        "comments": null,
-        "stars": 67293,
-        "forks": 27420
-      },
-      "tags": [],
-      "summary_1line": "Repositório com 67293 stars e 27420 forks em alta recente.",
-      "urgency_score": 58,
-      "relevance_score": 86,
-      "final_score": 69,
-      "priority_band": "quente",
-      "duplicate_group_id": null,
-      "related_count": 0,
-      "score_components": {
-        "recency": 76,
-        "traction": 100,
-        "acceleration": 35,
-        "quality": 84,
-        "topic": 56
-      }
-    },
-    {
-      "id": "sig_gh_268163609_trending",
-      "source": "github",
-      "source_item_id": "268163609",
-      "source_subtype": "trending",
-      "title": "qdrant/qdrant ganha tração no GitHub",
-      "url": "https://github.com/qdrant/qdrant",
-      "canonical_url": "https://github.com/qdrant/qdrant",
-      "created_at": "2026-09-18T19:41:11.000Z",
-      "captured_at": "2026-09-18T23:49:50.895Z",
-      "metrics": {
-        "upvotes": null,
-        "comments": null,
-        "stars": 34665,
-        "forks": 2684
-      },
-      "tags": [],
-      "summary_1line": "Repositório com 34665 stars e 2684 forks em alta recente.",
-      "urgency_score": 61,
-      "relevance_score": 81,
-      "final_score": 69,
-      "priority_band": "quente",
-      "duplicate_group_id": null,
-      "related_count": 0,
-      "score_components": {
-        "recency": 84,
-        "traction": 90,
-        "acceleration": 32,
-        "quality": 84,
-        "topic": 56
-      }
-    },
-    {
       "id": "sig_rd_1sq98cf",
       "source": "reddit",
       "source_item_id": "t3_1sq98cf",
@@ -2795,36 +2553,71 @@
       }
     },
     {
-      "id": "sig_gh_601205363_active",
+      "id": "sig_gh_1260625224_active",
       "source": "github",
-      "source_item_id": "601205363",
+      "source_item_id": "1260625224",
       "source_subtype": "active",
-      "title": "tenstorrent/tt-metal ganha tração no GitHub",
-      "url": "https://github.com/tenstorrent/tt-metal",
-      "canonical_url": "https://github.com/tenstorrent/tt-metal",
-      "created_at": "2026-09-18T23:42:17.000Z",
-      "captured_at": "2026-09-18T23:49:50.896Z",
+      "title": "FerroxLabs/wayland ganha tração no GitHub",
+      "url": "https://github.com/FerroxLabs/wayland",
+      "canonical_url": "https://github.com/FerroxLabs/wayland",
+      "created_at": "2026-09-19T01:39:23.000Z",
+      "captured_at": "2026-09-19T01:41:23.083Z",
       "metrics": {
         "upvotes": null,
         "comments": null,
-        "stars": 1684,
-        "forks": 695
+        "stars": 609,
+        "forks": 113
       },
       "tags": [
         "modelos",
-        "ferramentas-dev"
+        "agentes"
       ],
-      "summary_1line": "Repositório com 1684 stars e 695 forks em alta recente.",
-      "urgency_score": 62,
-      "relevance_score": 77,
+      "summary_1line": "Repositório com 609 stars e 113 forks em alta recente.",
+      "urgency_score": 66,
+      "relevance_score": 71,
       "final_score": 68,
       "priority_band": "quente",
       "duplicate_group_id": null,
       "related_count": 0,
       "score_components": {
         "recency": 99,
-        "traction": 70,
-        "acceleration": 16,
+        "traction": 58,
+        "acceleration": 25,
+        "quality": 84,
+        "topic": 84
+      }
+    },
+    {
+      "id": "sig_gh_1302093382_active",
+      "source": "github",
+      "source_item_id": "1302093382",
+      "source_subtype": "active",
+      "title": "gakonst/nanocodex ganha tração no GitHub",
+      "url": "https://github.com/gakonst/nanocodex",
+      "canonical_url": "https://github.com/gakonst/nanocodex",
+      "created_at": "2026-09-19T01:30:24.000Z",
+      "captured_at": "2026-09-19T01:41:23.083Z",
+      "metrics": {
+        "upvotes": null,
+        "comments": null,
+        "stars": 509,
+        "forks": 61
+      },
+      "tags": [
+        "modelos",
+        "agentes"
+      ],
+      "summary_1line": "Repositório com 509 stars e 61 forks em alta recente.",
+      "urgency_score": 67,
+      "relevance_score": 70,
+      "final_score": 68,
+      "priority_band": "quente",
+      "duplicate_group_id": null,
+      "related_count": 0,
+      "score_components": {
+        "recency": 99,
+        "traction": 55,
+        "acceleration": 27,
         "quality": 84,
         "topic": 84
       }
@@ -2928,65 +2721,101 @@
       }
     },
     {
-      "id": "sig_gh_535360445_trending",
+      "id": "sig_gh_634043200_trending",
       "source": "github",
-      "source_item_id": "535360445",
+      "source_item_id": "634043200",
       "source_subtype": "trending",
-      "title": "ultralytics/ultralytics ganha tração no GitHub",
-      "url": "https://github.com/ultralytics/ultralytics",
-      "canonical_url": "https://github.com/ultralytics/ultralytics",
-      "created_at": "2026-09-18T12:58:57.000Z",
-      "captured_at": "2026-09-18T23:49:50.895Z",
+      "title": "modular/modular ganha tração no GitHub",
+      "url": "https://github.com/modular/modular",
+      "canonical_url": "https://github.com/modular/modular",
+      "created_at": "2026-09-18T18:43:39.000Z",
+      "captured_at": "2026-09-19T01:41:23.083Z",
       "metrics": {
         "upvotes": null,
         "comments": null,
-        "stars": 61759,
-        "forks": 11782
+        "stars": 29819,
+        "forks": 3177
       },
       "tags": [],
-      "summary_1line": "Repositório com 61759 stars e 11782 forks em alta recente.",
-      "urgency_score": 55,
-      "relevance_score": 85,
+      "summary_1line": "Repositório com 29819 stars e 3177 forks em alta recente.",
+      "urgency_score": 58,
+      "relevance_score": 81,
       "final_score": 67,
       "priority_band": "quente",
       "duplicate_group_id": null,
       "related_count": 0,
       "score_components": {
-        "recency": 64,
-        "traction": 97,
-        "acceleration": 45,
+        "recency": 75,
+        "traction": 89,
+        "acceleration": 38,
         "quality": 84,
         "topic": 56
       }
     },
     {
-      "id": "sig_gh_571613891_trending",
+      "id": "sig_gh_828268839_trending",
       "source": "github",
-      "source_item_id": "571613891",
+      "source_item_id": "828268839",
       "source_subtype": "trending",
-      "title": "roboflow/supervision ganha tração no GitHub",
-      "url": "https://github.com/roboflow/supervision",
-      "canonical_url": "https://github.com/roboflow/supervision",
-      "created_at": "2026-09-18T14:02:52.000Z",
-      "captured_at": "2026-09-18T23:49:50.895Z",
+      "title": "NirDiamant/RAG_Techniques ganha tração no GitHub",
+      "url": "https://github.com/NirDiamant/RAG_Techniques",
+      "canonical_url": "https://github.com/NirDiamant/RAG_Techniques",
+      "created_at": "2026-09-18T14:16:24.000Z",
+      "captured_at": "2026-09-19T01:41:23.083Z",
       "metrics": {
         "upvotes": null,
         "comments": null,
-        "stars": 50920,
-        "forks": 4837
+        "stars": 29539,
+        "forks": 3612
       },
-      "tags": [],
-      "summary_1line": "Repositório com 50920 stars e 4837 forks em alta recente.",
-      "urgency_score": 56,
-      "relevance_score": 83,
+      "tags": [
+        "modelos",
+        "agentes",
+        "open-source"
+      ],
+      "summary_1line": "Repositório com 29539 stars e 3612 forks em alta recente.",
+      "urgency_score": 53,
+      "relevance_score": 87,
       "final_score": 67,
       "priority_band": "quente",
       "duplicate_group_id": null,
       "related_count": 0,
       "score_components": {
-        "recency": 67,
-        "traction": 93,
-        "acceleration": 42,
+        "recency": 62,
+        "traction": 89,
+        "acceleration": 43,
+        "quality": 84,
+        "topic": 84
+      }
+    },
+    {
+      "id": "sig_gh_843222_trending",
+      "source": "github",
+      "source_item_id": "843222",
+      "source_subtype": "trending",
+      "title": "scikit-learn/scikit-learn ganha tração no GitHub",
+      "url": "https://github.com/scikit-learn/scikit-learn",
+      "canonical_url": "https://github.com/scikit-learn/scikit-learn",
+      "created_at": "2026-09-18T17:14:10.000Z",
+      "captured_at": "2026-09-19T01:41:23.082Z",
+      "metrics": {
+        "upvotes": null,
+        "comments": null,
+        "stars": 67293,
+        "forks": 27420
+      },
+      "tags": [],
+      "summary_1line": "Repositório com 67293 stars e 27420 forks em alta recente.",
+      "urgency_score": 54,
+      "relevance_score": 86,
+      "final_score": 67,
+      "priority_band": "quente",
+      "duplicate_group_id": null,
+      "related_count": 0,
+      "score_components": {
+        "recency": 70,
+        "traction": 100,
+        "acceleration": 35,
         "quality": 84,
         "topic": 56
       }
@@ -3087,6 +2916,73 @@
         "acceleration": 36,
         "quality": 88,
         "topic": 84
+      }
+    },
+    {
+      "id": "sig_gh_1334118559_active",
+      "source": "github",
+      "source_item_id": "1334118559",
+      "source_subtype": "active",
+      "title": "Mars-Sea/dsh-commandcode-provider ganha tração no GitHub",
+      "url": "https://github.com/Mars-Sea/dsh-commandcode-provider",
+      "canonical_url": "https://github.com/Mars-Sea/dsh-commandcode-provider",
+      "created_at": "2026-09-19T01:32:41.000Z",
+      "captured_at": "2026-09-19T01:41:23.083Z",
+      "metrics": {
+        "upvotes": null,
+        "comments": null,
+        "stars": 284,
+        "forks": 19
+      },
+      "tags": [
+        "modelos",
+        "produto"
+      ],
+      "summary_1line": "Repositório com 284 stars e 19 forks em alta recente.",
+      "urgency_score": 66,
+      "relevance_score": 67,
+      "final_score": 66,
+      "priority_band": "quente",
+      "duplicate_group_id": null,
+      "related_count": 0,
+      "score_components": {
+        "recency": 99,
+        "traction": 49,
+        "acceleration": 26,
+        "quality": 84,
+        "topic": 84
+      }
+    },
+    {
+      "id": "sig_gh_535360445_trending",
+      "source": "github",
+      "source_item_id": "535360445",
+      "source_subtype": "trending",
+      "title": "ultralytics/ultralytics ganha tração no GitHub",
+      "url": "https://github.com/ultralytics/ultralytics",
+      "canonical_url": "https://github.com/ultralytics/ultralytics",
+      "created_at": "2026-09-18T12:58:57.000Z",
+      "captured_at": "2026-09-19T01:41:23.082Z",
+      "metrics": {
+        "upvotes": null,
+        "comments": null,
+        "stars": 61761,
+        "forks": 11781
+      },
+      "tags": [],
+      "summary_1line": "Repositório com 61761 stars e 11781 forks em alta recente.",
+      "urgency_score": 53,
+      "relevance_score": 85,
+      "final_score": 66,
+      "priority_band": "quente",
+      "duplicate_group_id": null,
+      "related_count": 0,
+      "score_components": {
+        "recency": 59,
+        "traction": 97,
+        "acceleration": 45,
+        "quality": 84,
+        "topic": 56
       }
     },
     {
@@ -3222,106 +3118,139 @@
       }
     },
     {
-      "id": "sig_gh_1365880534_active",
+      "id": "sig_gh_571613891_trending",
       "source": "github",
-      "source_item_id": "1365880534",
-      "source_subtype": "active",
-      "title": "WestFox-AwA/dsh-prompt-optimizer ganha tração no GitHub",
-      "url": "https://github.com/WestFox-AwA/dsh-prompt-optimizer",
-      "canonical_url": "https://github.com/WestFox-AwA/dsh-prompt-optimizer",
-      "created_at": "2026-09-18T23:42:29.000Z",
-      "captured_at": "2026-09-18T23:49:50.896Z",
+      "source_item_id": "571613891",
+      "source_subtype": "trending",
+      "title": "roboflow/supervision ganha tração no GitHub",
+      "url": "https://github.com/roboflow/supervision",
+      "canonical_url": "https://github.com/roboflow/supervision",
+      "created_at": "2026-09-18T14:02:52.000Z",
+      "captured_at": "2026-09-19T01:41:23.083Z",
       "metrics": {
         "upvotes": null,
         "comments": null,
-        "stars": 63,
-        "forks": 8
+        "stars": 50923,
+        "forks": 4838
+      },
+      "tags": [],
+      "summary_1line": "Repositório com 50923 stars e 4838 forks em alta recente.",
+      "urgency_score": 53,
+      "relevance_score": 83,
+      "final_score": 65,
+      "priority_band": "quente",
+      "duplicate_group_id": null,
+      "related_count": 0,
+      "score_components": {
+        "recency": 62,
+        "traction": 93,
+        "acceleration": 42,
+        "quality": 84,
+        "topic": 56
+      }
+    },
+    {
+      "id": "sig_gh_1260900514_active",
+      "source": "github",
+      "source_item_id": "1260900514",
+      "source_subtype": "active",
+      "title": "oryx-labs/oryxos ganha tração no GitHub",
+      "url": "https://github.com/oryx-labs/oryxos",
+      "canonical_url": "https://github.com/oryx-labs/oryxos",
+      "created_at": "2026-09-19T01:38:46.000Z",
+      "captured_at": "2026-09-19T01:41:23.083Z",
+      "metrics": {
+        "upvotes": null,
+        "comments": null,
+        "stars": 172,
+        "forks": 101
       },
       "tags": [
         "modelos",
         "agentes"
       ],
-      "summary_1line": "Repositório com 63 stars e 8 forks em alta recente.",
-      "urgency_score": 67,
-      "relevance_score": 61,
+      "summary_1line": "Repositório com 172 stars e 101 forks em alta recente.",
+      "urgency_score": 63,
+      "relevance_score": 69,
       "final_score": 65,
       "priority_band": "quente",
       "duplicate_group_id": null,
       "related_count": 0,
       "score_components": {
         "recency": 99,
-        "traction": 38,
-        "acceleration": 27,
+        "traction": 53,
+        "acceleration": 20,
         "quality": 84,
         "topic": 84
       }
     },
     {
-      "id": "sig_gh_698663431_active",
+      "id": "sig_gh_1289612923_active",
       "source": "github",
-      "source_item_id": "698663431",
+      "source_item_id": "1289612923",
       "source_subtype": "active",
-      "title": "berylliumsec/nebula ganha tração no GitHub",
-      "url": "https://github.com/berylliumsec/nebula",
-      "canonical_url": "https://github.com/berylliumsec/nebula",
-      "created_at": "2026-09-18T23:34:51.000Z",
-      "captured_at": "2026-09-18T23:49:50.896Z",
+      "title": "SirAllap/agentglass ganha tração no GitHub",
+      "url": "https://github.com/SirAllap/agentglass",
+      "canonical_url": "https://github.com/SirAllap/agentglass",
+      "created_at": "2026-09-19T01:36:51.000Z",
+      "captured_at": "2026-09-19T01:41:23.083Z",
       "metrics": {
         "upvotes": null,
         "comments": null,
-        "stars": 1110,
-        "forks": 169
+        "stars": 299,
+        "forks": 37
       },
       "tags": [
         "modelos",
-        "ferramentas-dev",
-        "seguranca"
+        "agentes"
       ],
-      "summary_1line": "Repositório com 1110 stars e 169 forks em alta recente.",
-      "urgency_score": 59,
-      "relevance_score": 74,
+      "summary_1line": "Repositório com 299 stars e 37 forks em alta recente.",
+      "urgency_score": 63,
+      "relevance_score": 68,
       "final_score": 65,
       "priority_band": "quente",
       "duplicate_group_id": null,
       "related_count": 0,
       "score_components": {
         "recency": 99,
-        "traction": 63,
-        "acceleration": 11,
+        "traction": 51,
+        "acceleration": 20,
         "quality": 84,
         "topic": 84
       }
     },
     {
-      "id": "sig_gh_119160553_trending",
+      "id": "sig_gh_1102275033_active",
       "source": "github",
-      "source_item_id": "119160553",
-      "source_subtype": "trending",
-      "title": "photoprism/photoprism ganha tração no GitHub",
-      "url": "https://github.com/photoprism/photoprism",
-      "canonical_url": "https://github.com/photoprism/photoprism",
-      "created_at": "2026-09-18T17:19:43.000Z",
-      "captured_at": "2026-09-18T23:49:50.895Z",
+      "source_item_id": "1102275033",
+      "source_subtype": "active",
+      "title": "sou350121/VLA-Handbook ganha tração no GitHub",
+      "url": "https://github.com/sou350121/VLA-Handbook",
+      "canonical_url": "https://github.com/sou350121/VLA-Handbook",
+      "created_at": "2026-09-19T01:31:05.000Z",
+      "captured_at": "2026-09-19T01:41:23.083Z",
       "metrics": {
         "upvotes": null,
         "comments": null,
-        "stars": 40203,
-        "forks": 2323
+        "stars": 628,
+        "forks": 40
       },
-      "tags": [],
-      "summary_1line": "Repositório com 40203 stars e 2323 forks em alta recente.",
-      "urgency_score": 55,
-      "relevance_score": 81,
+      "tags": [
+        "modelos"
+      ],
+      "summary_1line": "Repositório com 628 stars e 40 forks em alta recente.",
+      "urgency_score": 61,
+      "relevance_score": 70,
       "final_score": 65,
       "priority_band": "quente",
       "duplicate_group_id": null,
       "related_count": 0,
       "score_components": {
-        "recency": 76,
-        "traction": 90,
-        "acceleration": 30,
+        "recency": 99,
+        "traction": 56,
+        "acceleration": 14,
         "quality": 84,
-        "topic": 56
+        "topic": 84
       }
     },
     {
@@ -3357,6 +3286,73 @@
       }
     },
     {
+      "id": "sig_gh_119160553_trending",
+      "source": "github",
+      "source_item_id": "119160553",
+      "source_subtype": "trending",
+      "title": "photoprism/photoprism ganha tração no GitHub",
+      "url": "https://github.com/photoprism/photoprism",
+      "canonical_url": "https://github.com/photoprism/photoprism",
+      "created_at": "2026-09-18T17:19:43.000Z",
+      "captured_at": "2026-09-19T01:41:23.083Z",
+      "metrics": {
+        "upvotes": null,
+        "comments": null,
+        "stars": 40203,
+        "forks": 2323
+      },
+      "tags": [],
+      "summary_1line": "Repositório com 40203 stars e 2323 forks em alta recente.",
+      "urgency_score": 53,
+      "relevance_score": 81,
+      "final_score": 64,
+      "priority_band": "quente",
+      "duplicate_group_id": null,
+      "related_count": 0,
+      "score_components": {
+        "recency": 71,
+        "traction": 90,
+        "acceleration": 30,
+        "quality": 84,
+        "topic": 56
+      }
+    },
+    {
+      "id": "sig_gh_1335574722_active",
+      "source": "github",
+      "source_item_id": "1335574722",
+      "source_subtype": "active",
+      "title": "roy-tong/AgentMeasure ganha tração no GitHub",
+      "url": "https://github.com/roy-tong/AgentMeasure",
+      "canonical_url": "https://github.com/roy-tong/AgentMeasure",
+      "created_at": "2026-09-19T01:40:47.000Z",
+      "captured_at": "2026-09-19T01:41:23.083Z",
+      "metrics": {
+        "upvotes": null,
+        "comments": null,
+        "stars": 216,
+        "forks": 1
+      },
+      "tags": [
+        "modelos",
+        "agentes"
+      ],
+      "summary_1line": "Repositório com 216 stars e 1 forks em alta recente.",
+      "urgency_score": 64,
+      "relevance_score": 65,
+      "final_score": 64,
+      "priority_band": "quente",
+      "duplicate_group_id": null,
+      "related_count": 0,
+      "score_components": {
+        "recency": 99,
+        "traction": 45,
+        "acceleration": 22,
+        "quality": 84,
+        "topic": 84
+      }
+    },
+    {
       "id": "sig_gh_1160923315_active",
       "source": "github",
       "source_item_id": "1160923315",
@@ -3364,8 +3360,8 @@
       "title": "mixpeek/amux ganha tração no GitHub",
       "url": "https://github.com/mixpeek/amux",
       "canonical_url": "https://github.com/mixpeek/amux",
-      "created_at": "2026-09-18T23:49:10.000Z",
-      "captured_at": "2026-09-18T23:49:50.896Z",
+      "created_at": "2026-09-19T01:40:06.000Z",
+      "captured_at": "2026-09-19T01:41:23.083Z",
       "metrics": {
         "upvotes": null,
         "comments": null,
@@ -3393,170 +3389,240 @@
       }
     },
     {
-      "id": "sig_gh_1066847926_active",
+      "id": "sig_gh_1128579105_active",
       "source": "github",
-      "source_item_id": "1066847926",
+      "source_item_id": "1128579105",
       "source_subtype": "active",
-      "title": "jordanhubbard/nanolang ganha tração no GitHub",
-      "url": "https://github.com/jordanhubbard/nanolang",
-      "canonical_url": "https://github.com/jordanhubbard/nanolang",
-      "created_at": "2026-09-18T23:49:09.000Z",
-      "captured_at": "2026-09-18T23:49:50.896Z",
+      "title": "smithersai/smithers ganha tração no GitHub",
+      "url": "https://github.com/smithersai/smithers",
+      "canonical_url": "https://github.com/smithersai/smithers",
+      "created_at": "2026-09-19T01:33:31.000Z",
+      "captured_at": "2026-09-19T01:41:23.083Z",
       "metrics": {
         "upvotes": null,
         "comments": null,
-        "stars": 628,
-        "forks": 24
+        "stars": 417,
+        "forks": 50
       },
       "tags": [
         "modelos",
-        "pesquisa"
+        "agentes",
+        "ferramentas-dev"
       ],
-      "summary_1line": "Repositório com 628 stars e 24 forks em alta recente.",
+      "summary_1line": "Repositório com 417 stars e 50 forks em alta recente.",
       "urgency_score": 60,
-      "relevance_score": 70,
+      "relevance_score": 69,
       "final_score": 64,
       "priority_band": "quente",
       "duplicate_group_id": null,
       "related_count": 0,
       "score_components": {
         "recency": 99,
-        "traction": 55,
-        "acceleration": 12,
+        "traction": 54,
+        "acceleration": 13,
         "quality": 84,
         "topic": 84
       }
     },
     {
-      "id": "sig_gh_1191384809_active",
+      "id": "sig_gh_1339029998_active",
       "source": "github",
-      "source_item_id": "1191384809",
+      "source_item_id": "1339029998",
       "source_subtype": "active",
-      "title": "xberg-io/liter-llm ganha tração no GitHub",
-      "url": "https://github.com/xberg-io/liter-llm",
-      "canonical_url": "https://github.com/xberg-io/liter-llm",
-      "created_at": "2026-09-18T23:41:17.000Z",
-      "captured_at": "2026-09-18T23:49:50.896Z",
+      "title": "templetongroup/radiant ganha tração no GitHub",
+      "url": "https://github.com/templetongroup/radiant",
+      "canonical_url": "https://github.com/templetongroup/radiant",
+      "created_at": "2026-09-19T01:37:49.000Z",
+      "captured_at": "2026-09-19T01:41:23.083Z",
       "metrics": {
         "upvotes": null,
         "comments": null,
-        "stars": 255,
-        "forks": 22
-      },
-      "tags": [
-        "modelos",
-        "ferramentas-dev"
-      ],
-      "summary_1line": "Repositório com 255 stars e 22 forks em alta recente.",
-      "urgency_score": 60,
-      "relevance_score": 67,
-      "final_score": 63,
-      "priority_band": "quente",
-      "duplicate_group_id": null,
-      "related_count": 0,
-      "score_components": {
-        "recency": 99,
-        "traction": 49,
-        "acceleration": 12,
-        "quality": 84,
-        "topic": 84
-      }
-    },
-    {
-      "id": "sig_gh_638940706_active",
-      "source": "github",
-      "source_item_id": "638940706",
-      "source_subtype": "active",
-      "title": "planetabhi/riseofmachine ganha tração no GitHub",
-      "url": "https://github.com/planetabhi/riseofmachine",
-      "canonical_url": "https://github.com/planetabhi/riseofmachine",
-      "created_at": "2026-09-18T23:48:13.000Z",
-      "captured_at": "2026-09-18T23:49:50.896Z",
-      "metrics": {
-        "upvotes": null,
-        "comments": null,
-        "stars": 109,
-        "forks": 38
-      },
-      "tags": [
-        "modelos",
-        "agentes",
-        "produto"
-      ],
-      "summary_1line": "Repositório com 109 stars e 38 forks em alta recente.",
-      "urgency_score": 58,
-      "relevance_score": 66,
-      "final_score": 61,
-      "priority_band": "quente",
-      "duplicate_group_id": null,
-      "related_count": 0,
-      "score_components": {
-        "recency": 99,
-        "traction": 47,
-        "acceleration": 7,
-        "quality": 84,
-        "topic": 84
-      }
-    },
-    {
-      "id": "sig_gh_1267812693_active",
-      "source": "github",
-      "source_item_id": "1267812693",
-      "source_subtype": "active",
-      "title": "851-labs/tokenmaxxing ganha tração no GitHub",
-      "url": "https://github.com/851-labs/tokenmaxxing",
-      "canonical_url": "https://github.com/851-labs/tokenmaxxing",
-      "created_at": "2026-09-18T23:47:17.000Z",
-      "captured_at": "2026-09-18T23:49:50.896Z",
-      "metrics": {
-        "upvotes": null,
-        "comments": null,
-        "stars": 73,
-        "forks": 22
-      },
-      "tags": [
-        "modelos",
-        "agentes",
-        "ferramentas-dev"
-      ],
-      "summary_1line": "Repositório com 73 stars e 22 forks em alta recente.",
-      "urgency_score": 60,
-      "relevance_score": 63,
-      "final_score": 61,
-      "priority_band": "quente",
-      "duplicate_group_id": null,
-      "related_count": 0,
-      "score_components": {
-        "recency": 99,
-        "traction": 42,
-        "acceleration": 12,
-        "quality": 84,
-        "topic": 84
-      }
-    },
-    {
-      "id": "sig_gh_129746296_active",
-      "source": "github",
-      "source_item_id": "129746296",
-      "source_subtype": "active",
-      "title": "generalbots/generalbots ganha tração no GitHub",
-      "url": "https://github.com/generalbots/generalbots",
-      "canonical_url": "https://github.com/generalbots/generalbots",
-      "created_at": "2026-09-18T23:45:06.000Z",
-      "captured_at": "2026-09-18T23:49:50.896Z",
-      "metrics": {
-        "upvotes": null,
-        "comments": null,
-        "stars": 91,
-        "forks": 42
+        "stars": 99,
+        "forks": 18
       },
       "tags": [
         "modelos",
         "agentes",
         "open-source"
       ],
-      "summary_1line": "Repositório com 91 stars e 42 forks em alta recente.",
+      "summary_1line": "Repositório com 99 stars e 18 forks em alta recente.",
+      "urgency_score": 63,
+      "relevance_score": 64,
+      "final_score": 63,
+      "priority_band": "quente",
+      "duplicate_group_id": null,
+      "related_count": 0,
+      "score_components": {
+        "recency": 99,
+        "traction": 43,
+        "acceleration": 20,
+        "quality": 84,
+        "topic": 84
+      }
+    },
+    {
+      "id": "sig_gh_1030039430_active",
+      "source": "github",
+      "source_item_id": "1030039430",
+      "source_subtype": "active",
+      "title": "automagik-dev/genie ganha tração no GitHub",
+      "url": "https://github.com/automagik-dev/genie",
+      "canonical_url": "https://github.com/automagik-dev/genie",
+      "created_at": "2026-09-19T01:31:25.000Z",
+      "captured_at": "2026-09-19T01:41:23.083Z",
+      "metrics": {
+        "upvotes": null,
+        "comments": null,
+        "stars": 338,
+        "forks": 50
+      },
+      "tags": [
+        "modelos",
+        "agentes",
+        "ferramentas-dev"
+      ],
+      "summary_1line": "Repositório com 338 stars e 50 forks em alta recente.",
+      "urgency_score": 59,
+      "relevance_score": 69,
+      "final_score": 63,
+      "priority_band": "quente",
+      "duplicate_group_id": null,
+      "related_count": 0,
+      "score_components": {
+        "recency": 99,
+        "traction": 53,
+        "acceleration": 10,
+        "quality": 84,
+        "topic": 84
+      }
+    },
+    {
+      "id": "sig_gh_906590910_active",
+      "source": "github",
+      "source_item_id": "906590910",
+      "source_subtype": "active",
+      "title": "aircrushin/promptMinder ganha tração no GitHub",
+      "url": "https://github.com/aircrushin/promptMinder",
+      "canonical_url": "https://github.com/aircrushin/promptMinder",
+      "created_at": "2026-09-19T01:41:03.000Z",
+      "captured_at": "2026-09-19T01:41:23.083Z",
+      "metrics": {
+        "upvotes": null,
+        "comments": null,
+        "stars": 111,
+        "forks": 56
+      },
+      "tags": [
+        "modelos"
+      ],
+      "summary_1line": "Repositório com 111 stars e 56 forks em alta recente.",
+      "urgency_score": 59,
+      "relevance_score": 67,
+      "final_score": 62,
+      "priority_band": "quente",
+      "duplicate_group_id": null,
+      "related_count": 0,
+      "score_components": {
+        "recency": 99,
+        "traction": 49,
+        "acceleration": 10,
+        "quality": 84,
+        "topic": 84
+      }
+    },
+    {
+      "id": "sig_gh_856290104_active",
+      "source": "github",
+      "source_item_id": "856290104",
+      "source_subtype": "active",
+      "title": "etkecc/baibot ganha tração no GitHub",
+      "url": "https://github.com/etkecc/baibot",
+      "canonical_url": "https://github.com/etkecc/baibot",
+      "created_at": "2026-09-19T01:30:50.000Z",
+      "captured_at": "2026-09-19T01:41:23.083Z",
+      "metrics": {
+        "upvotes": null,
+        "comments": null,
+        "stars": 246,
+        "forks": 43
+      },
+      "tags": [
+        "modelos"
+      ],
+      "summary_1line": "Repositório com 246 stars e 43 forks em alta recente.",
       "urgency_score": 58,
+      "relevance_score": 67,
+      "final_score": 62,
+      "priority_band": "quente",
+      "duplicate_group_id": null,
+      "related_count": 0,
+      "score_components": {
+        "recency": 99,
+        "traction": 50,
+        "acceleration": 7,
+        "quality": 84,
+        "topic": 84
+      }
+    },
+    {
+      "id": "sig_gh_1233749549_active",
+      "source": "github",
+      "source_item_id": "1233749549",
+      "source_subtype": "active",
+      "title": "Sma1lboy/rove ganha tração no GitHub",
+      "url": "https://github.com/Sma1lboy/rove",
+      "canonical_url": "https://github.com/Sma1lboy/rove",
+      "created_at": "2026-09-19T01:40:51.000Z",
+      "captured_at": "2026-09-19T01:41:23.083Z",
+      "metrics": {
+        "upvotes": null,
+        "comments": null,
+        "stars": 139,
+        "forks": 8
+      },
+      "tags": [
+        "modelos",
+        "agentes",
+        "open-source"
+      ],
+      "summary_1line": "Repositório com 139 stars e 8 forks em alta recente.",
+      "urgency_score": 59,
+      "relevance_score": 64,
+      "final_score": 61,
+      "priority_band": "quente",
+      "duplicate_group_id": null,
+      "related_count": 0,
+      "score_components": {
+        "recency": 99,
+        "traction": 43,
+        "acceleration": 9,
+        "quality": 84,
+        "topic": 84
+      }
+    },
+    {
+      "id": "sig_gh_1189273325_active",
+      "source": "github",
+      "source_item_id": "1189273325",
+      "source_subtype": "active",
+      "title": "coddy-project/coddy-agent ganha tração no GitHub",
+      "url": "https://github.com/coddy-project/coddy-agent",
+      "canonical_url": "https://github.com/coddy-project/coddy-agent",
+      "created_at": "2026-09-19T01:38:29.000Z",
+      "captured_at": "2026-09-19T01:41:23.083Z",
+      "metrics": {
+        "upvotes": null,
+        "comments": null,
+        "stars": 146,
+        "forks": 15
+      },
+      "tags": [
+        "modelos",
+        "agentes",
+        "ferramentas-dev"
+      ],
+      "summary_1line": "Repositório com 146 stars e 15 forks em alta recente.",
+      "urgency_score": 59,
       "relevance_score": 65,
       "final_score": 61,
       "priority_band": "quente",
@@ -3564,106 +3630,70 @@
       "related_count": 0,
       "score_components": {
         "recency": 99,
-        "traction": 46,
-        "acceleration": 8,
+        "traction": 45,
+        "acceleration": 9,
         "quality": 84,
         "topic": 84
       }
     },
     {
-      "id": "sig_gh_922327641_active",
+      "id": "sig_gh_1002324568_active",
       "source": "github",
-      "source_item_id": "922327641",
+      "source_item_id": "1002324568",
       "source_subtype": "active",
-      "title": "damianvtran/local-operator ganha tração no GitHub",
-      "url": "https://github.com/damianvtran/local-operator",
-      "canonical_url": "https://github.com/damianvtran/local-operator",
-      "created_at": "2026-09-18T23:47:19.000Z",
-      "captured_at": "2026-09-18T23:49:50.896Z",
+      "title": "willdady/platypus ganha tração no GitHub",
+      "url": "https://github.com/willdady/platypus",
+      "canonical_url": "https://github.com/willdady/platypus",
+      "created_at": "2026-09-19T01:39:26.000Z",
+      "captured_at": "2026-09-19T01:41:23.083Z",
       "metrics": {
         "upvotes": null,
         "comments": null,
-        "stars": 213,
-        "forks": 30
-      },
-      "tags": [
-        "modelos",
-        "agentes",
-        "ferramentas-dev"
-      ],
-      "summary_1line": "Repositório com 213 stars e 30 forks em alta recente.",
-      "urgency_score": 57,
-      "relevance_score": 67,
-      "final_score": 61,
-      "priority_band": "quente",
-      "duplicate_group_id": null,
-      "related_count": 0,
-      "score_components": {
-        "recency": 99,
-        "traction": 49,
-        "acceleration": 6,
-        "quality": 84,
-        "topic": 84
-      }
-    },
-    {
-      "id": "sig_gh_1283311815_active",
-      "source": "github",
-      "source_item_id": "1283311815",
-      "source_subtype": "active",
-      "title": "naberbabammm34343/llm-task-orchestrator ganha tração no GitHub",
-      "url": "https://github.com/naberbabammm34343/llm-task-orchestrator",
-      "canonical_url": "https://github.com/naberbabammm34343/llm-task-orchestrator",
-      "created_at": "2026-09-18T23:40:53.000Z",
-      "captured_at": "2026-09-18T23:49:50.896Z",
-      "metrics": {
-        "upvotes": null,
-        "comments": null,
-        "stars": 125,
-        "forks": 1
+        "stars": 74,
+        "forks": 21
       },
       "tags": [
         "modelos",
         "agentes"
       ],
-      "summary_1line": "Repositório com 125 stars e 1 forks em alta recente.",
-      "urgency_score": 59,
+      "summary_1line": "Repositório com 74 stars e 21 forks em alta recente.",
+      "urgency_score": 58,
       "relevance_score": 63,
-      "final_score": 61,
+      "final_score": 60,
       "priority_band": "quente",
       "duplicate_group_id": null,
       "related_count": 0,
       "score_components": {
         "recency": 99,
-        "traction": 41,
-        "acceleration": 10,
+        "traction": 42,
+        "acceleration": 7,
         "quality": 84,
         "topic": 84
       }
     },
     {
-      "id": "sig_gh_1283321289_active",
+      "id": "sig_gh_1240844551_active",
       "source": "github",
-      "source_item_id": "1283321289",
+      "source_item_id": "1240844551",
       "source_subtype": "active",
-      "title": "janaador0827-commits/simulacra-forge ganha tração no GitHub",
-      "url": "https://github.com/janaador0827-commits/simulacra-forge",
-      "canonical_url": "https://github.com/janaador0827-commits/simulacra-forge",
-      "created_at": "2026-09-18T23:43:27.000Z",
-      "captured_at": "2026-09-18T23:49:50.896Z",
+      "title": "NeverSight/NeverC ganha tração no GitHub",
+      "url": "https://github.com/NeverSight/NeverC",
+      "canonical_url": "https://github.com/NeverSight/NeverC",
+      "created_at": "2026-09-19T01:37:04.000Z",
+      "captured_at": "2026-09-19T01:41:23.083Z",
       "metrics": {
         "upvotes": null,
         "comments": null,
-        "stars": 116,
-        "forks": 0
+        "stars": 82,
+        "forks": 11
       },
       "tags": [
         "modelos",
-        "agentes",
-        "ferramentas-dev"
+        "seguranca",
+        "pesquisa"
       ],
-      "summary_1line": "Repositório com 116 stars e 0 forks em alta recente.",
-      "urgency_score": 59,
+      "summary_1line": "Repositório com 82 stars e 11 forks em alta recente.",
+      "urgency_score": 58,
       "relevance_score": 62,
       "final_score": 60,
       "priority_band": "quente",
@@ -3672,33 +3702,33 @@
       "score_components": {
         "recency": 99,
         "traction": 40,
-        "acceleration": 10,
+        "acceleration": 8,
         "quality": 84,
         "topic": 84
       }
     },
     {
-      "id": "sig_gh_1027007337_active",
+      "id": "sig_gh_1131305895_active",
       "source": "github",
-      "source_item_id": "1027007337",
+      "source_item_id": "1131305895",
       "source_subtype": "active",
-      "title": "cyzus/suzent ganha tração no GitHub",
-      "url": "https://github.com/cyzus/suzent",
-      "canonical_url": "https://github.com/cyzus/suzent",
-      "created_at": "2026-09-18T23:38:07.000Z",
-      "captured_at": "2026-09-18T23:49:50.896Z",
+      "title": "preloop/preloop ganha tração no GitHub",
+      "url": "https://github.com/preloop/preloop",
+      "canonical_url": "https://github.com/preloop/preloop",
+      "created_at": "2026-09-19T01:36:23.000Z",
+      "captured_at": "2026-09-19T01:41:23.083Z",
       "metrics": {
         "upvotes": null,
         "comments": null,
-        "stars": 65,
-        "forks": 10
+        "stars": 63,
+        "forks": 12
       },
       "tags": [
         "modelos",
         "agentes",
-        "pesquisa"
+        "produto"
       ],
-      "summary_1line": "Repositório com 65 stars e 10 forks em alta recente.",
+      "summary_1line": "Repositório com 63 stars e 12 forks em alta recente.",
       "urgency_score": 57,
       "relevance_score": 62,
       "final_score": 59,
@@ -3708,6 +3738,41 @@
       "score_components": {
         "recency": 99,
         "traction": 39,
+        "acceleration": 6,
+        "quality": 84,
+        "topic": 84
+      }
+    },
+    {
+      "id": "sig_gh_1181918709_active",
+      "source": "github",
+      "source_item_id": "1181918709",
+      "source_subtype": "active",
+      "title": "dylanneve1/talon ganha tração no GitHub",
+      "url": "https://github.com/dylanneve1/talon",
+      "canonical_url": "https://github.com/dylanneve1/talon",
+      "created_at": "2026-09-19T01:31:15.000Z",
+      "captured_at": "2026-09-19T01:41:23.083Z",
+      "metrics": {
+        "upvotes": null,
+        "comments": null,
+        "stars": 83,
+        "forks": 3
+      },
+      "tags": [
+        "modelos",
+        "agentes"
+      ],
+      "summary_1line": "Repositório com 83 stars e 3 forks em alta recente.",
+      "urgency_score": 57,
+      "relevance_score": 61,
+      "final_score": 59,
+      "priority_band": "observacao",
+      "duplicate_group_id": null,
+      "related_count": 0,
+      "score_components": {
+        "recency": 99,
+        "traction": 38,
         "acceleration": 5,
         "quality": 84,
         "topic": 84
@@ -3722,25 +3787,25 @@
       "url": "https://github.com/rasbt/LLMs-from-scratch",
       "canonical_url": "https://github.com/rasbt/LLMs-from-scratch",
       "created_at": "2026-09-17T14:08:55.000Z",
-      "captured_at": "2026-09-18T23:49:50.894Z",
+      "captured_at": "2026-09-19T01:41:23.082Z",
       "metrics": {
         "upvotes": null,
         "comments": null,
-        "stars": 105202,
-        "forks": 16132
+        "stars": 105205,
+        "forks": 16131
       },
       "tags": [
         "modelos"
       ],
-      "summary_1line": "Repositório com 105202 stars e 16132 forks em alta recente.",
-      "urgency_score": 37,
+      "summary_1line": "Repositório com 105205 stars e 16131 forks em alta recente.",
+      "urgency_score": 36,
       "relevance_score": 92,
-      "final_score": 59,
+      "final_score": 58,
       "priority_band": "observacao",
       "duplicate_group_id": null,
       "related_count": 0,
       "score_components": {
-        "recency": 25,
+        "recency": 23,
         "traction": 100,
         "acceleration": 52,
         "quality": 84,
@@ -3756,7 +3821,7 @@
       "url": "https://github.com/Developer-Y/cs-video-courses",
       "canonical_url": "https://github.com/Developer-Y/cs-video-courses",
       "created_at": "2026-09-17T16:11:45.000Z",
-      "captured_at": "2026-09-18T23:49:50.895Z",
+      "captured_at": "2026-09-19T01:41:23.082Z",
       "metrics": {
         "upvotes": null,
         "comments": null,
@@ -3767,14 +3832,14 @@
         "seguranca"
       ],
       "summary_1line": "Repositório com 83534 stars e 11490 forks em alta recente.",
-      "urgency_score": 32,
+      "urgency_score": 31,
       "relevance_score": 91,
-      "final_score": 56,
+      "final_score": 55,
       "priority_band": "observacao",
       "duplicate_group_id": null,
       "related_count": 0,
       "score_components": {
-        "recency": 27,
+        "recency": 25,
         "traction": 98,
         "acceleration": 38,
         "quality": 84,
@@ -3790,11 +3855,11 @@
       "url": "https://github.com/microsoft/qlib",
       "canonical_url": "https://github.com/microsoft/qlib",
       "created_at": "2026-09-17T16:40:12.000Z",
-      "captured_at": "2026-09-18T23:49:50.895Z",
+      "captured_at": "2026-09-19T01:41:23.083Z",
       "metrics": {
         "upvotes": null,
         "comments": null,
-        "stars": 48661,
+        "stars": 48662,
         "forks": 7703
       },
       "tags": [
@@ -3802,51 +3867,19 @@
         "agentes",
         "open-source"
       ],
-      "summary_1line": "Repositório com 48661 stars e 7703 forks em alta recente.",
-      "urgency_score": 32,
+      "summary_1line": "Repositório com 48662 stars e 7703 forks em alta recente.",
+      "urgency_score": 30,
       "relevance_score": 89,
-      "final_score": 55,
+      "final_score": 54,
       "priority_band": "observacao",
       "duplicate_group_id": null,
       "related_count": 0,
       "score_components": {
-        "recency": 27,
+        "recency": 25,
         "traction": 94,
         "acceleration": 37,
         "quality": 84,
         "topic": 84
-      }
-    },
-    {
-      "id": "sig_gh_344190478_trending",
-      "source": "github",
-      "source_item_id": "344190478",
-      "source_subtype": "trending",
-      "title": "microsoft/AI-For-Beginners ganha tração no GitHub",
-      "url": "https://github.com/microsoft/AI-For-Beginners",
-      "canonical_url": "https://github.com/microsoft/AI-For-Beginners",
-      "created_at": "2026-09-16T20:17:56.000Z",
-      "captured_at": "2026-09-18T23:49:50.895Z",
-      "metrics": {
-        "upvotes": null,
-        "comments": null,
-        "stars": 68697,
-        "forks": 13270
-      },
-      "tags": [],
-      "summary_1line": "Repositório com 68697 stars e 13270 forks em alta recente.",
-      "urgency_score": 26,
-      "relevance_score": 85,
-      "final_score": 50,
-      "priority_band": "observacao",
-      "duplicate_group_id": null,
-      "related_count": 0,
-      "score_components": {
-        "recency": 12,
-        "traction": 98,
-        "acceleration": 42,
-        "quality": 84,
-        "topic": 56
       }
     },
     {
@@ -3858,11 +3891,11 @@
       "url": "https://github.com/Fincept-Corporation/FinceptTerminal",
       "canonical_url": "https://github.com/Fincept-Corporation/FinceptTerminal",
       "created_at": "2026-09-16T18:57:15.000Z",
-      "captured_at": "2026-09-18T23:49:50.895Z",
+      "captured_at": "2026-09-19T01:41:23.083Z",
       "metrics": {
         "upvotes": null,
         "comments": null,
-        "stars": 31771,
+        "stars": 31772,
         "forks": 4507
       },
       "tags": [
@@ -3870,15 +3903,15 @@
         "open-source",
         "pesquisa"
       ],
-      "summary_1line": "Repositório com 31771 stars e 4507 forks em alta recente.",
-      "urgency_score": 26,
+      "summary_1line": "Repositório com 31772 stars e 4507 forks em alta recente.",
+      "urgency_score": 25,
       "relevance_score": 87,
       "final_score": 50,
       "priority_band": "observacao",
       "duplicate_group_id": null,
       "related_count": 0,
       "score_components": {
-        "recency": 11,
+        "recency": 10,
         "traction": 90,
         "acceleration": 44,
         "quality": 84,
@@ -3894,7 +3927,7 @@
       "url": "https://github.com/Lightning-AI/pytorch-lightning",
       "canonical_url": "https://github.com/Lightning-AI/pytorch-lightning",
       "created_at": "2026-09-17T08:37:45.000Z",
-      "captured_at": "2026-09-18T23:49:50.895Z",
+      "captured_at": "2026-09-19T01:41:23.083Z",
       "metrics": {
         "upvotes": null,
         "comments": null,
@@ -3905,14 +3938,14 @@
         "modelos"
       ],
       "summary_1line": "Repositório com 31350 stars e 3795 forks em alta recente.",
-      "urgency_score": 25,
+      "urgency_score": 24,
       "relevance_score": 87,
-      "final_score": 50,
+      "final_score": 49,
       "priority_band": "observacao",
       "duplicate_group_id": null,
       "related_count": 0,
       "score_components": {
-        "recency": 20,
+        "recency": 18,
         "traction": 90,
         "acceleration": 31,
         "quality": 84,
@@ -3920,33 +3953,33 @@
       }
     },
     {
-      "id": "sig_gh_343965132_trending",
+      "id": "sig_gh_344190478_trending",
       "source": "github",
-      "source_item_id": "343965132",
+      "source_item_id": "344190478",
       "source_subtype": "trending",
-      "title": "microsoft/ML-For-Beginners ganha tração no GitHub",
-      "url": "https://github.com/microsoft/ML-For-Beginners",
-      "canonical_url": "https://github.com/microsoft/ML-For-Beginners",
-      "created_at": "2026-09-15T05:29:39.000Z",
-      "captured_at": "2026-09-18T23:49:50.895Z",
+      "title": "microsoft/AI-For-Beginners ganha tração no GitHub",
+      "url": "https://github.com/microsoft/AI-For-Beginners",
+      "canonical_url": "https://github.com/microsoft/AI-For-Beginners",
+      "created_at": "2026-09-16T20:17:56.000Z",
+      "captured_at": "2026-09-19T01:41:23.082Z",
       "metrics": {
         "upvotes": null,
         "comments": null,
-        "stars": 90659,
-        "forks": 22348
+        "stars": 68699,
+        "forks": 13272
       },
       "tags": [],
-      "summary_1line": "Repositório com 90659 stars e 22348 forks em alta recente.",
-      "urgency_score": 22,
-      "relevance_score": 86,
-      "final_score": 48,
+      "summary_1line": "Repositório com 68699 stars e 13272 forks em alta recente.",
+      "urgency_score": 25,
+      "relevance_score": 85,
+      "final_score": 49,
       "priority_band": "observacao",
       "duplicate_group_id": null,
       "related_count": 0,
       "score_components": {
-        "recency": 2,
-        "traction": 100,
-        "acceleration": 46,
+        "recency": 11,
+        "traction": 98,
+        "acceleration": 42,
         "quality": 84,
         "topic": 56
       }
@@ -3960,7 +3993,7 @@
       "url": "https://github.com/google-research/google-research",
       "canonical_url": "https://github.com/google-research/google-research",
       "created_at": "2026-09-16T19:46:42.000Z",
-      "captured_at": "2026-09-18T23:49:50.895Z",
+      "captured_at": "2026-09-19T01:41:23.083Z",
       "metrics": {
         "upvotes": null,
         "comments": null,
@@ -3986,71 +4019,35 @@
       }
     },
     {
-      "id": "sig_gh_22887094_trending",
+      "id": "sig_gh_343965132_trending",
       "source": "github",
-      "source_item_id": "22887094",
+      "source_item_id": "343965132",
       "source_subtype": "trending",
-      "title": "tesseract-ocr/tesseract ganha tração no GitHub",
-      "url": "https://github.com/tesseract-ocr/tesseract",
-      "canonical_url": "https://github.com/tesseract-ocr/tesseract",
-      "created_at": "2026-09-11T05:17:27.000Z",
-      "captured_at": "2026-09-18T23:49:50.895Z",
+      "title": "microsoft/ML-For-Beginners ganha tração no GitHub",
+      "url": "https://github.com/microsoft/ML-For-Beginners",
+      "canonical_url": "https://github.com/microsoft/ML-For-Beginners",
+      "created_at": "2026-09-15T05:29:39.000Z",
+      "captured_at": "2026-09-19T01:41:23.082Z",
       "metrics": {
         "upvotes": null,
         "comments": null,
-        "stars": 76565,
-        "forks": 10805
+        "stars": 90662,
+        "forks": 22349
       },
-      "tags": [
-        "open-source"
-      ],
-      "summary_1line": "Repositório com 76565 stars e 10805 forks em alta recente.",
-      "urgency_score": 16,
-      "relevance_score": 91,
-      "final_score": 46,
+      "tags": [],
+      "summary_1line": "Repositório com 90662 stars e 22349 forks em alta recente.",
+      "urgency_score": 22,
+      "relevance_score": 86,
+      "final_score": 48,
       "priority_band": "observacao",
       "duplicate_group_id": null,
       "related_count": 0,
       "score_components": {
-        "recency": 0,
-        "traction": 98,
-        "acceleration": 35,
+        "recency": 2,
+        "traction": 100,
+        "acceleration": 46,
         "quality": 84,
-        "topic": 84
-      }
-    },
-    {
-      "id": "sig_gh_1198539_trending",
-      "source": "github",
-      "source_item_id": "1198539",
-      "source_subtype": "trending",
-      "title": "lutzroeder/netron ganha tração no GitHub",
-      "url": "https://github.com/lutzroeder/netron",
-      "canonical_url": "https://github.com/lutzroeder/netron",
-      "created_at": "2026-09-16T16:49:48.000Z",
-      "captured_at": "2026-09-18T23:49:50.895Z",
-      "metrics": {
-        "upvotes": null,
-        "comments": null,
-        "stars": 33494,
-        "forks": 3185
-      },
-      "tags": [
-        "modelos"
-      ],
-      "summary_1line": "Repositório com 33494 stars e 3185 forks em alta recente.",
-      "urgency_score": 16,
-      "relevance_score": 87,
-      "final_score": 44,
-      "priority_band": "observacao",
-      "duplicate_group_id": null,
-      "related_count": 0,
-      "score_components": {
-        "recency": 10,
-        "traction": 90,
-        "acceleration": 23,
-        "quality": 84,
-        "topic": 84
+        "topic": 56
       }
     }
   ]
